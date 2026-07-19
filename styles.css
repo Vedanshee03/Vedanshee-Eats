@@ -389,12 +389,32 @@ body {
 .footer-small { font-size: 10px; margin-top: 1px; font-style: normal; opacity: 0.7; }
 
 /* — Responsive — */
-@media (max-width: 860px) {
+/* Phones & short screens (incl. landscape): stack map over the list and
+   let the whole page scroll so the full restaurant list is reachable */
+@media (max-width: 860px), (max-height: 520px) {
+  html, body { height: auto; }
+
   .layout {
-    grid-template-columns: 1fr;
-    grid-template-rows: 55vh 45vh;
+    display: flex;
+    flex-direction: column;
     height: auto;
   }
-  .sidebar { order: 2; border-right: none; border-top: 3px double var(--autumn-deep); }
-  .map-wrap { order: 1; height: 55vh; }
+
+  .map-wrap {
+    order: 1;
+    height: 55vh;
+    min-height: 260px;
+  }
+
+  .sidebar {
+    order: 2;
+    border-right: none;
+    border-top: 3px double var(--autumn-deep);
+  }
+
+  /* List no longer scrolls inside a tiny box — it flows with the page */
+  .place-list {
+    flex: none;
+    overflow-y: visible;
+  }
 }
