@@ -2255,5 +2255,113 @@ const PLACES = [
     "lat": 38.915532,
     "lng": -77.067805,
     "approx": false
+  },
+  {
+    "id": 189,
+    "name": "Blank Street Coffee",
+    "cuisine": "Coffee",
+    "category": "Coffee",
+    "region": "nyc",
+    "location": "Greenwich Village, New York City",
+    "mapQuery": null,
+    "lat": 40.733519,
+    "lng": -73.993502,
+    "approx": false
+  },
+  {
+    "id": 190,
+    "name": "Fonty's Deli + Dukaan",
+    "cuisine": "Indian-Inspired Sandwiches",
+    "category": "Fast Casual",
+    "region": "nyc",
+    "location": "West Village, New York City",
+    "mapQuery": null,
+    "lat": 40.733782,
+    "lng": -74.000652,
+    "approx": false
+  },
+  {
+    "id": 191,
+    "name": "Puesto La Jolla",
+    "cuisine": "Mexican / Tacos",
+    "category": "Restaurant",
+    "region": "sd",
+    "location": "La Jolla, San Diego",
+    "mapQuery": "Puesto La Jolla, 1026 Wall St, La Jolla, CA 92037",
+    "lat": 32.847012,
+    "lng": -117.273786,
+    "approx": false
+  },
+  {
+    "id": 192,
+    "name": "Dutch Bros Coffee",
+    "cuisine": "Coffee",
+    "category": "Coffee",
+    "region": "mcminnville",
+    "location": "McMinnville, Oregon",
+    "mapQuery": "Dutch Bros Coffee, 120 NE 5th St, McMinnville, OR 97128",
+    "lat": 45.211152,
+    "lng": -123.198929,
+    "approx": false
+  },
+  {
+    "id": 193,
+    "name": "Bottega Louie",
+    "cuisine": "Italian / Patisserie",
+    "category": "Restaurant",
+    "region": "la",
+    "location": "Downtown Los Angeles",
+    "mapQuery": "Bottega Louie, 700 S Grand Ave, Los Angeles, CA 90017",
+    "lat": 34.04707,
+    "lng": -118.256634,
+    "approx": false
+  },
+  {
+    "id": 194,
+    "name": "Ebaes",
+    "cuisine": "Ramen / Sushi",
+    "category": "Restaurant",
+    "region": "la",
+    "location": "University Park, Los Angeles",
+    "mapQuery": "Ebaes, 2314 S Union Ave, Los Angeles, CA 90007",
+    "lat": 34.034378,
+    "lng": -118.283583,
+    "approx": false
+  },
+  {
+    "id": 195,
+    "name": "Nature's Brew",
+    "cuisine": "Cafe / Juice",
+    "category": "Cafe",
+    "region": "la",
+    "location": "University Park, Los Angeles",
+    "mapQuery": "Nature's Brew, 2316 S Union Ave, Los Angeles, CA 90007",
+    "lat": 34.034334,
+    "lng": -118.283652,
+    "approx": false
+  },
+  {
+    "id": 196,
+    "name": "QWENCH Juice Bar",
+    "cuisine": "Juice / Smoothies",
+    "category": "Cafe",
+    "region": "la",
+    "location": "University Park, Los Angeles",
+    "mapQuery": "QWENCH Juice Bar, 2595 S Hoover St, Los Angeles, CA 90007",
+    "lat": 34.032087,
+    "lng": -118.284331,
+    "approx": false
+  },
+  {
+    "id": 197,
+    "name": "Randy's Donuts",
+    "cuisine": "Donuts",
+    "category": "Dessert",
+    "region": "la",
+    "location": "Inglewood, Los Angeles Area",
+    "mapQuery": "Randy's Donuts, 805 W Manchester Blvd, Inglewood, CA 90301",
+    "lat": 33.961852,
+    "lng": -118.370379,
+    "approx": false
   }
 ];

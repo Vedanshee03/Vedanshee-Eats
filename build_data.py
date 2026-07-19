@@ -111,6 +111,15 @@ MANUAL = {
     187: (38.904768, -77.065150, False),   # Osteria Mozza - Georgetown
     188: (38.908305, -77.063992, False),   # Boulangerie Christophe
     189: (38.915532, -77.067805, False),   # Otto Neo Mediterranean
+    190: (40.733519, -73.993502, False),   # Blank Street Coffee - University Place
+    191: (40.733782, -74.000652, False),   # Fonty's Deli + Dukaan
+    192: (32.847012, -117.273786, False),  # Puesto La Jolla
+    193: (45.211152, -123.198929, False),  # Dutch Bros Coffee - NE 5th St
+    194: (34.047070, -118.256634, False),  # Bottega Louie - DTLA
+    195: (34.034378, -118.283583, False),  # Ebaes - University Park
+    196: (34.034334, -118.283652, False),  # Nature's Brew
+    197: (34.032087, -118.284331, False),  # QWENCH Juice Bar - University Park
+    198: (33.961852, -118.370379, False),  # Randy's Donuts - Inglewood flagship
 }
 
 GOOGLE_QUERIES = {

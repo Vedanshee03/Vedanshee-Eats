@@ -99,7 +99,7 @@ const regions = [
   { id: "mcminnville", label: "McMinnville", emoji: "🌲" },
   { id: "sf", label: "San Francisco Bay Area", emoji: "🌉" },
   { id: "la", label: "Los Angeles Area", emoji: "🌴" },
-  { id: "sd", label: "San Diego (UTC)", emoji: "☀️" },
+  { id: "sd", label: "San Diego Area", emoji: "☀️" },
   { id: "dc", label: "Washington, DC", emoji: "🏛️" },
 ];
 const locationFiltersEl = document.getElementById("location-filters");
