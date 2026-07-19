@@ -1,0 +1,108 @@
+OK     1 Soothr -> 40.73233, -73.98732
+OK     2 Thai Villa -> 40.73898, -73.99071
+FAIL   3 Valla Table
+FAIL   4 Hyderabadi Zaiqa
+OK     5 Blue Dog -> 40.76469, -73.97966
+OK     6 Gupshup -> 40.73686, -73.98764
+OK     7 Masalawala & Sons -> 40.67128, -73.98434
+OK     8 Pasta Eater Hell's Kitchen -> 40.76356, -73.98867
+FAIL   9 A Pasta Bar
+OK    10 Buddha Bodai -> 40.71386, -73.99880
+OK    11 Chama Mama -> 40.73842, -73.99892
+OK    12 EZ Paella & Tapas -> 40.76359, -73.98865
+OK    13 Jack's Wife Freda -> 40.72229, -73.99737
+OK    14 Rosemary's -> 40.73479, -73.99986
+OK    15 Cafe Habana -> 40.72284, -73.99423
+OK    16 Ramen Danbo -> 40.72987, -74.00347
+OK    17 Mint Heights -> 40.69308, -73.97145
+OK    18 BCD Tofu House -> 40.74751, -73.98606
+OK    19 Sullivan Street Bakery -> 40.76359, -73.99476
+OK    20 Little Ruby's Cafe -> 40.73407, -74.00279
+OK    21 Win Son Bakery -> 40.70722, -73.94302
+OK    22 Carnegie Diner & Cafe -> 40.75793, -73.98214
+FAIL  23 Jolly Goat Coffee Bar
+OK    24 Black Fox Coffee -> 40.76142, -73.97387
+OK    25 Cafe Arabica -> 40.70260, -73.99414
+OK    26 Stumptown Coffee Roasters -> 40.74566, -73.98805
+OK    27 Jajaja Mexicana -> 40.72982, -74.00455
+OK    28 Dorado -> 40.64021, -73.95556
+OK    29 Naya -> 40.76324, -73.97694
+OK    30 Cava -> 40.75286, -73.98752
+FAIL  31 Moonbowls
+OK    32 Bengal Tiger -> 40.76560, -73.98260
+OK    33 Joe & The Juice -> 40.73254, -74.00388
+OK    34 Maman -> 40.72024, -73.99832
+FAIL  35 Starbucks Reserve Roastery
+OK    36 Chun Yang Tea -> 40.71618, -73.99708
+OK    37 Gong Cha -> 40.74746, -73.98652
+OK    38 Tashkent Supermarket -> 40.73299, -73.99979
+FAIL  39 Hashi Mart
+OK    40 Heytea -> 40.75353, -73.98741
+OK    41 Venchi -> 40.73743, -73.99040
+OK    42 Ravagh Persian Grill -> 40.76186, -73.96064
+OK    43 Olive Garden -> 40.75947, -73.98477
+OK    44 Fumo -> 40.77665, -73.95239
+OK    45 Jey Diner -> 40.66116, -73.99698
+OK    46 Tin Cup Cafe -> 40.66129, -73.99685
+OK    47 Paris Baguette -> 40.75483, -73.98649
+OK    48 Blue Bottle Coffee -> 40.75305, -73.98410
+OK    49 Tous les Jours -> 40.74791, -73.98700
+OK    50 La Cabra -> 40.72940, -73.98686
+OK    51 Bagel Pub -> 40.67226, -73.95724
+OK    52 Murray's Bagels -> 40.74478, -73.99859
+OK    53 Zucker's Bagels -> 40.71579, -74.00956
+OK    54 Merci Market -> 40.73507, -73.99406
+OK    55 Little Italy Pizza -> 40.75640, -73.98153
+OK    56 Lenwich -> 40.75691, -73.97753
+OK    57 Gentile Gelateria -> 40.71622, -73.96382
+OK    58 Socarrat Paella Bar -> 40.74265, -73.99954
+OK    59 Radio Bakery -> 40.73239, -73.95494
+OK    60 Sunday Morning -> 40.72248, -73.98297
+OK    61 POST -> 40.72294, -73.98293
+OK    62 Le Cafe Coffee -> 40.77123, -73.99308
+FAIL  63 Dovetail Bakery
+OK    64 Xi'an Famous Foods -> 40.75628, -73.98186
+OK    65 Magnolia Bakery -> 40.73589, -74.00500
+FAIL  66 Adel's Halal Cart
+OK    67 Acadia -> 40.76300, -73.96501
+OK    68 Bel-Fries -> 40.72018, -73.98818
+FAIL  69 The Soirée
+OK    70 Sake Bar Hagi -> 40.76274, -73.98498
+OK    71 Krispy Kreme -> 40.76030, -73.98496
+FAIL  72 Lillie's Victorian Establishment
+OK    73 Rancho Taquerias -> 40.74157, -73.92019
+OK    74 Chalong -> 40.76390, -73.98888
+OK    75 Wafels & Dinges -> 40.75454, -73.98404
+FAIL  76 Norma Gastronomia Siciliana
+OK    77 Bird & Branch -> 40.76028, -73.99075
+OK    78 Wondee Siam -> 40.76477, -73.98779
+OK    79 Ground Central Coffee -> 40.76374, -73.98481
+FAIL  80 Din Tai Fung
+OK    81 St Kilda Coffee -> 40.75898, -73.99018
+OK    82 Ben's Pizza -> 40.72492, -74.00246
+OK    83 Joe's Pizza -> 40.73055, -74.00206
+OK    84 Pizza Roma -> 40.78000, -73.95335
+OK    85 Think Coffee -> 40.75222, -74.00170
+OK    86 Kashkaval Garden -> 40.76676, -73.98618
+FAIL  87 Mr Wu Dim Sum
+OK    88 Beyond Sushi -> 40.76331, -73.97720
+OK    89 Olio e Più -> 40.73379, -73.99977
+FAIL  90 Hibernia
+OK    91 Tony's Di Napoli -> 40.75639, -73.98543
+OK    92 Bukhara Grill -> 40.74973, -73.97826
+FAIL  93 Frena
+OK    94 Tavern on the Green -> 40.77220, -73.97760
+FAIL  95 Omakaseed
+OK    96 The History -> 40.76053, -73.99133
+OK    97 Pongal -> 40.74242, -73.98281
+FAIL  98 Saravana Bhavan
+OK    99 La Colombe Coffee Roasters -> 40.73063, -73.99514
+OK   100 Añejo -> 40.71931, -74.00425
+FAIL 101 Chai Samosa
+OK   102 Cafe Himalaya -> 40.72319, -73.98799
+OK   103 Embriago Coffee -> 40.72137, -73.99293
+FAIL 104 McCarthy's Pub
+FAIL 105 Kustom Matcha & Espresso Bar
+
+Done. 84/105 geocoded.
+Failed: Valla Table, Hyderabadi Zaiqa, A Pasta Bar, Jolly Goat Coffee Bar, Moonbowls, Starbucks Reserve Roastery, Hashi Mart, Dovetail Bakery, Adel's Halal Cart, The Soirée, Lillie's Victorian Establishment, Norma Gastronomia Siciliana, Din Tai Fung, Mr Wu Dim Sum, Hibernia, Frena, Omakaseed, Saravana Bhavan, Chai Samosa, McCarthy's Pub, Kustom Matcha & Espresso Bar

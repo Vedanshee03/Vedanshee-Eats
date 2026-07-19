@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vedanshee Eats &mdash; A Stars Hollow Food Diary</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+  <link rel="stylesheet" href="styles.css?v=6" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#9749;</text></svg>" />
+</head>
+<body>
+  <div class="lights" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="header-eyebrow">&#10045; Welcome to &#10045;</p>
+      <h1 class="header-title">Vedanshee <span class="script">eats</span></h1>
+      <p class="header-sub">A Stars Hollow&ndash;style food diary from coast to coast&mdash;and wherever comes next</p>
+      <p class="food-timeline" aria-label="Three-year food diary timeline">
+        <strong>3 years of eating:</strong>
+        NYC &middot; 106 places in 11 months
+        <span aria-hidden="true">&bull;</span>
+        LA &middot; 50+ in 2 years
+        <span aria-hidden="true">&bull;</span>
+        McMinnville &middot; 2 months
+        <span aria-hidden="true">&bull;</span>
+        SF &amp; San Diego &middot; 4-day trips each
+      </p>
+      <p class="header-quote" id="quote">&ldquo;I need coffee in an IV.&rdquo; &mdash; Lorelai Gilmore</p>
+    </div>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <nav class="location-filters" id="location-filters" aria-label="Filter by location"></nav>
+
+      <div class="search-wrap">
+        <input type="text" id="search" placeholder="Search the town directory&hellip;" autocomplete="off" />
+      </div>
+
+      <p class="map-notice"><strong>Map note:</strong> Some pins are approximate. Open the Google Maps link in each popup for the verified listing and directions.</p>
+
+      <div class="filters" id="filters"></div>
+
+      <p class="results-count" id="results-count"></p>
+
+      <ul class="place-list" id="place-list"></ul>
+    </aside>
+
+    <section class="map-wrap">
+      <div id="map"></div>
+      <div class="map-badge">&#9749; A little bit of Stars Hollow, wherever you go</div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&ldquo;Where you lead, I will follow&hellip;&rdquo; &mdash; probably to one of these delicious places.</p>
+    <p class="footer-small">Made with coffee, pop-tarts &amp; love &middot; Map data &copy; OpenStreetMap contributors</p>
+  </footer>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="data.js?v=7"></script>
+  <script src="app.js?v=7"></script>
+</body>
+</html>
