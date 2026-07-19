@@ -2183,5 +2183,77 @@ const PLACES = [
     "lat": 32.871803,
     "lng": -117.212958,
     "approx": false
+  },
+  {
+    "id": 183,
+    "name": "Tatte Bakery & Cafe",
+    "cuisine": "Bakery / Cafe",
+    "category": "Cafe",
+    "region": "dc",
+    "location": "Georgetown, Washington, DC",
+    "mapQuery": "Tatte Bakery & Cafe, 1545 Wisconsin Ave NW, Washington, DC 20007",
+    "lat": 38.910182,
+    "lng": -77.064611,
+    "approx": false
+  },
+  {
+    "id": 184,
+    "name": "Clyde's of Georgetown",
+    "cuisine": "American",
+    "category": "Restaurant",
+    "region": "dc",
+    "location": "Georgetown, Washington, DC",
+    "mapQuery": "Clyde's of Georgetown, 3236 M St NW, Washington, DC 20007",
+    "lat": 38.90491,
+    "lng": -77.06366,
+    "approx": false
+  },
+  {
+    "id": 185,
+    "name": "Founding Farmers Fishers & Bakers",
+    "cuisine": "New American",
+    "category": "Restaurant",
+    "region": "dc",
+    "location": "Georgetown Waterfront, Washington, DC",
+    "mapQuery": "Founding Farmers Fishers & Bakers, 3000 K St NW, Washington, DC 20007",
+    "lat": 38.901804,
+    "lng": -77.059746,
+    "approx": false
+  },
+  {
+    "id": 186,
+    "name": "Osteria Mozza",
+    "cuisine": "Italian",
+    "category": "Restaurant",
+    "region": "dc",
+    "location": "Georgetown, Washington, DC",
+    "mapQuery": "Osteria Mozza, 3276 M St NW, Washington, DC 20007",
+    "lat": 38.904768,
+    "lng": -77.06515,
+    "approx": false
+  },
+  {
+    "id": 187,
+    "name": "Boulangerie Christophe",
+    "cuisine": "French Bakery",
+    "category": "Bakery",
+    "region": "dc",
+    "location": "Georgetown, Washington, DC",
+    "mapQuery": "Boulangerie Christophe, 1422 Wisconsin Ave NW, Washington, DC 20007",
+    "lat": 38.908305,
+    "lng": -77.063992,
+    "approx": false
+  },
+  {
+    "id": 188,
+    "name": "Otto Neo Mediterranean",
+    "cuisine": "Mediterranean / Turkish",
+    "category": "Restaurant",
+    "region": "dc",
+    "location": "Georgetown, Washington, DC",
+    "mapQuery": "Otto Neo Mediterranean, 1834 Wisconsin Ave NW, Washington, DC 20007",
+    "lat": 38.915532,
+    "lng": -77.067805,
+    "approx": false
   }
 ];

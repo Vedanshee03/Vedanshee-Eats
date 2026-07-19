@@ -105,6 +105,12 @@ MANUAL = {
     181: (32.870485, -117.212483, False),  # Wushiland Boba - Westfield UTC
     182: (32.870382, -117.212040, False),  # Shake Shack - Westfield UTC
     183: (32.871803, -117.212958, False),  # La Colombe - Westfield UTC
+    184: (38.910182, -77.064611, False),   # Tatte Bakery & Cafe - Georgetown
+    185: (38.904910, -77.063660, False),   # Clyde's of Georgetown
+    186: (38.901804, -77.059746, False),   # Founding Farmers Fishers & Bakers
+    187: (38.904768, -77.065150, False),   # Osteria Mozza - Georgetown
+    188: (38.908305, -77.063992, False),   # Boulangerie Christophe
+    189: (38.915532, -77.067805, False),   # Otto Neo Mediterranean
 }
 
 GOOGLE_QUERIES = {
