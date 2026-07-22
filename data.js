@@ -2363,5 +2363,101 @@ const PLACES = [
     "lat": 33.961852,
     "lng": -118.370379,
     "approx": false
+  },
+  {
+    "id": 198,
+    "name": "Wildwood Cafe",
+    "cuisine": "American Breakfast",
+    "category": "Cafe",
+    "region": "mcminnville",
+    "location": "McMinnville, Oregon",
+    "mapQuery": "Wildwood Cafe, 319 NE Baker St, McMinnville, OR 97128",
+    "lat": 45.210263,
+    "lng": -123.198197,
+    "approx": false
+  },
+  {
+    "id": 199,
+    "name": "Sushi Ninja",
+    "cuisine": "Japanese / Sushi",
+    "category": "Restaurant",
+    "region": "mcminnville",
+    "location": "McMinnville, Oregon",
+    "mapQuery": "Sushi Ninja, 828 NE Adams St, McMinnville, OR 97128",
+    "lat": 45.214079,
+    "lng": -123.198747,
+    "approx": false
+  },
+  {
+    "id": 200,
+    "name": "Baker St Cafe - Thai Kitchen",
+    "cuisine": "Thai",
+    "category": "Restaurant",
+    "region": "mcminnville",
+    "location": "McMinnville, Oregon",
+    "mapQuery": "Baker St Cafe Thai Kitchen, 205 SE Baker St, McMinnville, OR 97128",
+    "lat": 45.207767,
+    "lng": -123.198265,
+    "approx": false
+  },
+  {
+    "id": 201,
+    "name": "Guac Time Mexican Grill",
+    "cuisine": "Mexican",
+    "category": "Fast Casual",
+    "region": "nyc",
+    "location": "Chelsea, New York City",
+    "mapQuery": null,
+    "lat": 40.739591,
+    "lng": -73.99557,
+    "approx": false
+  },
+  {
+    "id": 202,
+    "name": "The Soup Bowl of Park Slope",
+    "cuisine": "Soup",
+    "category": "Fast Casual",
+    "region": "nyc",
+    "location": "Park Slope, Brooklyn",
+    "mapQuery": null,
+    "lat": 40.667095,
+    "lng": -73.981225,
+    "approx": false
+  },
+  {
+    "id": 203,
+    "name": "Madras Dosa Company",
+    "cuisine": "South Indian",
+    "category": "Fast Casual",
+    "region": "nyc",
+    "location": "Rockefeller Center, New York City",
+    "mapQuery": null,
+    "lat": 40.758835,
+    "lng": -73.978814,
+    "approx": false
+  },
+  {
+    "id": 204,
+    "name": "Malai Marke Indian Cuisine",
+    "cuisine": "Indian",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "East Village, New York City",
+    "mapQuery": null,
+    "lat": 40.72686,
+    "lng": -73.98765,
+    "approx": false
+  },
+  {
+    "id": 205,
+    "name": "Hello Saigon Restaurant",
+    "cuisine": "Vietnamese",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "West Village, New York City",
+    "mapQuery": null,
+    "lat": 40.728874,
+    "lng": -74.001004,
+    "approx": false
   }
 ];

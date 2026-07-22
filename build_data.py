@@ -120,6 +120,14 @@ MANUAL = {
     196: (34.034334, -118.283652, False),  # Nature's Brew
     197: (34.032087, -118.284331, False),  # QWENCH Juice Bar - University Park
     198: (33.961852, -118.370379, False),  # Randy's Donuts - Inglewood flagship
+    199: (45.210263, -123.198197, False),  # Wildwood Cafe
+    200: (45.214079, -123.198747, False),  # Sushi Ninja
+    201: (45.207767, -123.198265, False),  # Baker St Cafe - Thai Kitchen
+    202: (40.739591, -73.995570, False),   # Guac Time Mexican Grill - Chelsea
+    203: (40.667095, -73.981225, False),   # The Soup Bowl of Park Slope
+    204: (40.758835, -73.978814, False),   # Madras Dosa Company - Rockefeller Center
+    205: (40.726860, -73.987650, False),   # Malai Marke Indian Cuisine
+    206: (40.728874, -74.001004, False),   # Hello Saigon Restaurant
 }
 
 GOOGLE_QUERIES = {

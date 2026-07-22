@@ -195,5 +195,13 @@
   {"id": 195, "name": "Ebaes", "cuisine": "Ramen / Sushi", "category": "Restaurant", "region": "la", "location": "University Park, Los Angeles", "query": "Ebaes, 2314 S Union Ave, Los Angeles, CA 90007"},
   {"id": 196, "name": "Nature's Brew", "cuisine": "Cafe / Juice", "category": "Cafe", "region": "la", "location": "University Park, Los Angeles", "query": "Nature's Brew, 2316 S Union Ave, Los Angeles, CA 90007"},
   {"id": 197, "name": "QWENCH Juice Bar", "cuisine": "Juice / Smoothies", "category": "Cafe", "region": "la", "location": "University Park, Los Angeles", "query": "QWENCH Juice Bar, 2595 S Hoover St, Los Angeles, CA 90007"},
-  {"id": 198, "name": "Randy's Donuts", "cuisine": "Donuts", "category": "Dessert", "region": "la", "location": "Inglewood, Los Angeles Area", "query": "Randy's Donuts, 805 W Manchester Blvd, Inglewood, CA 90301"}
+  {"id": 198, "name": "Randy's Donuts", "cuisine": "Donuts", "category": "Dessert", "region": "la", "location": "Inglewood, Los Angeles Area", "query": "Randy's Donuts, 805 W Manchester Blvd, Inglewood, CA 90301"},
+  {"id": 199, "name": "Wildwood Cafe", "cuisine": "American Breakfast", "category": "Cafe", "region": "mcminnville", "location": "McMinnville, Oregon", "query": "Wildwood Cafe, 319 NE Baker St, McMinnville, OR 97128"},
+  {"id": 200, "name": "Sushi Ninja", "cuisine": "Japanese / Sushi", "category": "Restaurant", "region": "mcminnville", "location": "McMinnville, Oregon", "query": "Sushi Ninja, 828 NE Adams St, McMinnville, OR 97128"},
+  {"id": 201, "name": "Baker St Cafe - Thai Kitchen", "cuisine": "Thai", "category": "Restaurant", "region": "mcminnville", "location": "McMinnville, Oregon", "query": "Baker St Cafe Thai Kitchen, 205 SE Baker St, McMinnville, OR 97128"},
+  {"id": 202, "name": "Guac Time Mexican Grill", "cuisine": "Mexican", "category": "Fast Casual", "region": "nyc", "location": "Chelsea, New York City", "query": "Guac Time Mexican Grill, 599 6th Ave, New York, NY 10011"},
+  {"id": 203, "name": "The Soup Bowl of Park Slope", "cuisine": "Soup", "category": "Fast Casual", "region": "nyc", "location": "Park Slope, Brooklyn", "query": "The Soup Bowl of Park Slope, 302 7th Ave, Brooklyn, NY 11215"},
+  {"id": 204, "name": "Madras Dosa Company", "cuisine": "South Indian", "category": "Fast Casual", "region": "nyc", "location": "Rockefeller Center, New York City", "query": "Madras Dosa Company, 30 Rockefeller Plaza, New York, NY 10112"},
+  {"id": 205, "name": "Malai Marke Indian Cuisine", "cuisine": "Indian", "category": "Restaurant", "region": "nyc", "location": "East Village, New York City", "query": "Malai Marke Indian Cuisine, 318 E 6th St, New York, NY 10003"},
+  {"id": 206, "name": "Hello Saigon Restaurant", "cuisine": "Vietnamese", "category": "Restaurant", "region": "nyc", "location": "West Village, New York City", "query": "Hello Saigon Restaurant, 180 Bleecker St, New York, NY 10012"}
 ]
