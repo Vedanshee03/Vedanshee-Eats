@@ -203,5 +203,6 @@
   {"id": 203, "name": "The Soup Bowl of Park Slope", "cuisine": "Soup", "category": "Fast Casual", "region": "nyc", "location": "Park Slope, Brooklyn", "query": "The Soup Bowl of Park Slope, 302 7th Ave, Brooklyn, NY 11215"},
   {"id": 204, "name": "Madras Dosa Company", "cuisine": "South Indian", "category": "Fast Casual", "region": "nyc", "location": "Rockefeller Center, New York City", "query": "Madras Dosa Company, 30 Rockefeller Plaza, New York, NY 10112"},
   {"id": 205, "name": "Malai Marke Indian Cuisine", "cuisine": "Indian", "category": "Restaurant", "region": "nyc", "location": "East Village, New York City", "query": "Malai Marke Indian Cuisine, 318 E 6th St, New York, NY 10003"},
-  {"id": 206, "name": "Hello Saigon Restaurant", "cuisine": "Vietnamese", "category": "Restaurant", "region": "nyc", "location": "West Village, New York City", "query": "Hello Saigon Restaurant, 180 Bleecker St, New York, NY 10012"}
+  {"id": 206, "name": "Hello Saigon Restaurant", "cuisine": "Vietnamese", "category": "Restaurant", "region": "nyc", "location": "West Village, New York City", "query": "Hello Saigon Restaurant, 180 Bleecker St, New York, NY 10012"},
+  {"id": 207, "name": "Bombay Grill House", "cuisine": "Indian", "category": "Restaurant", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Bombay Grill House, 764 9th Ave, New York, NY 10019"}
 ]

@@ -128,6 +128,7 @@ MANUAL = {
     204: (40.758835, -73.978814, False),   # Madras Dosa Company - Rockefeller Center
     205: (40.726860, -73.987650, False),   # Malai Marke Indian Cuisine
     206: (40.728874, -74.001004, False),   # Hello Saigon Restaurant
+    207: (40.764161, -73.988100, False),   # Bombay Grill House - Hell's Kitchen
 }
 
 GOOGLE_QUERIES = {

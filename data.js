@@ -2459,5 +2459,17 @@ const PLACES = [
     "lat": 40.728874,
     "lng": -74.001004,
     "approx": false
+  },
+  {
+    "id": 206,
+    "name": "Bombay Grill House",
+    "cuisine": "Indian",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": null,
+    "lat": 40.764161,
+    "lng": -73.9881,
+    "approx": false
   }
 ];
