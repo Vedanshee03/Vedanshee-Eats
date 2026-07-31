@@ -2471,5 +2471,65 @@ const PLACES = [
     "lat": 40.764161,
     "lng": -73.9881,
     "approx": false
+  },
+  {
+    "id": 207,
+    "name": "White Noise Coffee",
+    "cuisine": "Coffee",
+    "category": "Coffee",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": null,
+    "lat": 40.770108,
+    "lng": -73.991856,
+    "approx": false
+  },
+  {
+    "id": 208,
+    "name": "Coffee T Bagels",
+    "cuisine": "Coffee & Bagels",
+    "category": "Cafe",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": null,
+    "lat": 40.76178,
+    "lng": -73.994302,
+    "approx": false
+  },
+  {
+    "id": 209,
+    "name": "Elephant Ear Thai Eatery",
+    "cuisine": "Thai",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": null,
+    "lat": 40.761756,
+    "lng": -73.989791,
+    "approx": false
+  },
+  {
+    "id": 210,
+    "name": "Gregory's Coffee",
+    "cuisine": "Coffee",
+    "category": "Coffee",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": null,
+    "lat": 40.759846,
+    "lng": -73.991369,
+    "approx": false
+  },
+  {
+    "id": 211,
+    "name": "Grind The NYC Coffee Shop",
+    "cuisine": "Coffee & Bagels",
+    "category": "Coffee",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": null,
+    "lat": 40.759114,
+    "lng": -73.991914,
+    "approx": false
   }
 ];

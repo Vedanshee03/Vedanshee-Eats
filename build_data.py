@@ -129,6 +129,11 @@ MANUAL = {
     205: (40.726860, -73.987650, False),   # Malai Marke Indian Cuisine
     206: (40.728874, -74.001004, False),   # Hello Saigon Restaurant
     207: (40.764161, -73.988100, False),   # Bombay Grill House - Hell's Kitchen
+    208: (40.770108, -73.991856, False),   # White Noise Coffee - Hell's Kitchen
+    209: (40.761780, -73.994302, False),   # Coffee T Bagels - Hell's Kitchen
+    210: (40.761756, -73.989791, False),   # Elephant Ear Thai Eatery
+    211: (40.759846, -73.991369, False),   # Gregory's Coffee - Hell's Kitchen
+    212: (40.759114, -73.991914, False),   # Grind The NYC Coffee Shop
 }
 
 GOOGLE_QUERIES = {
