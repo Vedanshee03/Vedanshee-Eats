@@ -134,6 +134,11 @@ MANUAL = {
     210: (40.761756, -73.989791, False),   # Elephant Ear Thai Eatery
     211: (40.759846, -73.991369, False),   # Gregory's Coffee - Hell's Kitchen
     212: (40.759114, -73.991914, False),   # Grind The NYC Coffee Shop
+    213: (40.756007, -73.994171, False),   # Cafe Aroma - Hell's Kitchen
+    214: (40.756771, -73.989841, False),   # Bluestone Lane - Times Square
+    215: (27.943259, -82.446635, False),   # Shortwave Coffee - Sparkman Wharf
+    216: (27.960024, -82.435229, False),   # Columbia Restaurant - Ybor City
+    217: (27.945990, -82.526437, False),   # Curry Leaves Indian Cuisine - Westshore Plaza
 }
 
 GOOGLE_QUERIES = {

@@ -2531,5 +2531,65 @@ const PLACES = [
     "lat": 40.759114,
     "lng": -73.991914,
     "approx": false
+  },
+  {
+    "id": 212,
+    "name": "Cafe Aroma",
+    "cuisine": "Cafe / Breakfast",
+    "category": "Cafe",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": null,
+    "lat": 40.756007,
+    "lng": -73.994171,
+    "approx": false
+  },
+  {
+    "id": 213,
+    "name": "Bluestone Lane",
+    "cuisine": "Australian Cafe",
+    "category": "Cafe",
+    "region": "nyc",
+    "location": "Times Square, New York City",
+    "mapQuery": null,
+    "lat": 40.756771,
+    "lng": -73.989841,
+    "approx": false
+  },
+  {
+    "id": 214,
+    "name": "Shortwave Coffee",
+    "cuisine": "Coffee",
+    "category": "Coffee",
+    "region": "tampa",
+    "location": "Sparkman Wharf, Tampa",
+    "mapQuery": "Shortwave Coffee, 615 Channelside Dr Suite 106, Tampa, FL 33602",
+    "lat": 27.943259,
+    "lng": -82.446635,
+    "approx": false
+  },
+  {
+    "id": 215,
+    "name": "Columbia Restaurant",
+    "cuisine": "Spanish / Cuban",
+    "category": "Restaurant",
+    "region": "tampa",
+    "location": "Ybor City, Tampa",
+    "mapQuery": "Columbia Restaurant, 2117 E 7th Ave, Tampa, FL 33605",
+    "lat": 27.960024,
+    "lng": -82.435229,
+    "approx": false
+  },
+  {
+    "id": 216,
+    "name": "Curry Leaves Indian Cuisine",
+    "cuisine": "Indian",
+    "category": "Restaurant",
+    "region": "tampa",
+    "location": "Westshore Plaza, Tampa",
+    "mapQuery": "Curry Leaves Indian Cuisine, 204 Westshore Plaza, Tampa, FL 33609",
+    "lat": 27.94599,
+    "lng": -82.526437,
+    "approx": false
   }
 ];

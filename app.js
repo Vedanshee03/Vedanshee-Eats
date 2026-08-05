@@ -101,6 +101,7 @@ const regions = [
   { id: "la", label: "Los Angeles Area", emoji: "🌴" },
   { id: "sd", label: "San Diego Area", emoji: "☀️" },
   { id: "dc", label: "Washington, DC", emoji: "🏛️" },
+  { id: "tampa", label: "Tampa", emoji: "🍊" },
 ];
 const locationFiltersEl = document.getElementById("location-filters");
 

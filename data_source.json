@@ -209,5 +209,10 @@
   {"id": 209, "name": "Coffee T Bagels", "cuisine": "Coffee & Bagels", "category": "Cafe", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Coffee T Bagels, 637 10th Ave, New York, NY 10036"},
   {"id": 210, "name": "Elephant Ear Thai Eatery", "cuisine": "Thai", "category": "Restaurant", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Elephant Ear Thai Eatery, 690 9th Ave, New York, NY 10036"},
   {"id": 211, "name": "Gregory's Coffee", "cuisine": "Coffee", "category": "Coffee", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Gregory's Coffee, 630 9th Ave, New York, NY 10036"},
-  {"id": 212, "name": "Grind The NYC Coffee Shop", "cuisine": "Coffee & Bagels", "category": "Coffee", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Grind The NYC Coffee Shop, 602 9th Ave, New York, NY 10036"}
+  {"id": 212, "name": "Grind The NYC Coffee Shop", "cuisine": "Coffee & Bagels", "category": "Coffee", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Grind The NYC Coffee Shop, 602 9th Ave, New York, NY 10036"},
+  {"id": 213, "name": "Cafe Aroma", "cuisine": "Cafe / Breakfast", "category": "Cafe", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Cafe Aroma, 502 9th Ave, New York, NY 10018"},
+  {"id": 214, "name": "Bluestone Lane", "cuisine": "Australian Cafe", "category": "Cafe", "region": "nyc", "location": "Times Square, New York City", "query": "Bluestone Lane, 11 Times Square, New York, NY 10036"},
+  {"id": 215, "name": "Shortwave Coffee", "cuisine": "Coffee", "category": "Coffee", "region": "tampa", "location": "Sparkman Wharf, Tampa", "query": "Shortwave Coffee, 615 Channelside Dr Suite 106, Tampa, FL 33602"},
+  {"id": 216, "name": "Columbia Restaurant", "cuisine": "Spanish / Cuban", "category": "Restaurant", "region": "tampa", "location": "Ybor City, Tampa", "query": "Columbia Restaurant, 2117 E 7th Ave, Tampa, FL 33605"},
+  {"id": 217, "name": "Curry Leaves Indian Cuisine", "cuisine": "Indian", "category": "Restaurant", "region": "tampa", "location": "Westshore Plaza, Tampa", "query": "Curry Leaves Indian Cuisine, 204 Westshore Plaza, Tampa, FL 33609"}
 ]
