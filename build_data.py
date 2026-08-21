@@ -168,6 +168,8 @@ GOOGLE_QUERIES = {
     73: "Rancho Tequileria, 741 9th Ave, New York, NY 10019",
     76: "Norma Gastronomia Siciliana, 438 3rd Ave, New York, NY 10016",
     106: "Taboonette, 30 E 13th St, New York, NY 10003",
+    # Business listing may not be on Google Maps yet — open the street pin directly
+    237: "39.200921,-85.920746",
 }
 
 with open("geocoded.json") as f:

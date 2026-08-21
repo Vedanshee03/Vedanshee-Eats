@@ -2827,7 +2827,7 @@ const PLACES = [
     "category": "Restaurant",
     "region": "indiana",
     "location": "Columbus, Indiana",
-    "mapQuery": "Masala Magic, 217 Washington St Suite A, Columbus, IN 47201",
+    "mapQuery": "39.200921,-85.920746",
     "lat": 39.200921,
     "lng": -85.920746,
     "approx": false
