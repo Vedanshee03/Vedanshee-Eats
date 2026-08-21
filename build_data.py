@@ -158,7 +158,7 @@ MANUAL = {
     234: (39.223163, -85.915107, False),   # Olesya's Kitchen
     235: (39.220906, -85.887644, False),   # Panera Bread
     236: (39.223147, -85.915318, False),   # Le Fernandez Cafe
-    237: (39.200921, -85.920746, False),   # Masala Magic
+    237: (39.200843, -85.920796, False),   # Masala Magic - 217 Washington St Ste A
     238: (39.767960, -86.159673, False),   # Buca di Beppo - Indianapolis
 }
 
@@ -168,8 +168,8 @@ GOOGLE_QUERIES = {
     73: "Rancho Tequileria, 741 9th Ave, New York, NY 10019",
     76: "Norma Gastronomia Siciliana, 438 3rd Ave, New York, NY 10016",
     106: "Taboonette, 30 E 13th St, New York, NY 10003",
-    # Business listing may not be on Google Maps yet — open the street pin directly
-    237: "39.200921,-85.920746",
+    # Exact suite address — business name may not resolve in Google Maps
+    237: "217 Washington St Ste A, Columbus, IN 47201",
 }
 
 with open("geocoded.json") as f:

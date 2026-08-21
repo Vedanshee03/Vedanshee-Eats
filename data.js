@@ -2827,9 +2827,9 @@ const PLACES = [
     "category": "Restaurant",
     "region": "indiana",
     "location": "Columbus, Indiana",
-    "mapQuery": "39.200921,-85.920746",
-    "lat": 39.200921,
-    "lng": -85.920746,
+    "mapQuery": "217 Washington St Ste A, Columbus, IN 47201",
+    "lat": 39.200843,
+    "lng": -85.920796,
     "approx": false
   },
   {
