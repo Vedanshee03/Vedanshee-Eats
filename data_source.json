@@ -214,5 +214,9 @@
   {"id": 214, "name": "Bluestone Lane", "cuisine": "Australian Cafe", "category": "Cafe", "region": "nyc", "location": "Times Square, New York City", "query": "Bluestone Lane, 11 Times Square, New York, NY 10036"},
   {"id": 215, "name": "Shortwave Coffee", "cuisine": "Coffee", "category": "Coffee", "region": "tampa", "location": "Sparkman Wharf, Tampa", "query": "Shortwave Coffee, 615 Channelside Dr Suite 106, Tampa, FL 33602"},
   {"id": 216, "name": "Columbia Restaurant", "cuisine": "Spanish / Cuban", "category": "Restaurant", "region": "tampa", "location": "Ybor City, Tampa", "query": "Columbia Restaurant, 2117 E 7th Ave, Tampa, FL 33605"},
-  {"id": 217, "name": "Curry Leaves Indian Cuisine", "cuisine": "Indian", "category": "Restaurant", "region": "tampa", "location": "Westshore Plaza, Tampa", "query": "Curry Leaves Indian Cuisine, 204 Westshore Plaza, Tampa, FL 33609"}
+  {"id": 217, "name": "Curry Leaves Indian Cuisine", "cuisine": "Indian", "category": "Restaurant", "region": "tampa", "location": "Westshore Plaza, Tampa", "query": "Curry Leaves Indian Cuisine, 204 Westshore Plaza, Tampa, FL 33609"},
+  {"id": 218, "name": "Rice X Beans", "cuisine": "Brazilian", "category": "Restaurant", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Rice X Beans, 688 10th Ave, New York, NY 10019"},
+  {"id": 219, "name": "Koukla Espresso Bar", "cuisine": "Mediterranean Cafe", "category": "Cafe", "region": "nyc", "location": "Astoria, Queens", "query": "Koukla Espresso Bar, 30-09 35th Ave, Astoria, NY 11106"},
+  {"id": 220, "name": "The Gyro Project", "cuisine": "Greek / Mediterranean", "category": "Fast Casual", "region": "nyc", "location": "Hudson Yards, New York City", "query": "The Gyro Project, 505 W 37th St, New York, NY 10018"},
+  {"id": 221, "name": "The Stinger Cocktail Bar & Kitchen", "cuisine": "Cocktails / American", "category": "Bar / Pub", "region": "nyc", "location": "Times Square, New York City", "query": "The Stinger Cocktail Bar & Kitchen, 300 W 44th St, New York, NY 10036"}
 ]

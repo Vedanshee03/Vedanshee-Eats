@@ -139,6 +139,10 @@ MANUAL = {
     215: (27.943259, -82.446635, False),   # Shortwave Coffee - Sparkman Wharf
     216: (27.960024, -82.435229, False),   # Columbia Restaurant - Ybor City
     217: (27.945990, -82.526437, False),   # Curry Leaves Indian Cuisine - Westshore Plaza
+    218: (40.763522, -73.992424, False),   # Rice X Beans - Hell's Kitchen
+    219: (40.758474, -73.928820, False),   # Koukla Espresso Bar - Astoria
+    220: (40.756949, -73.998026, False),   # The Gyro Project - Hudson Yards
+    221: (40.758861, -73.989869, False),   # The Stinger Cocktail Bar & Kitchen
 }
 
 GOOGLE_QUERIES = {

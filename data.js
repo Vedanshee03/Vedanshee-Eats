@@ -2591,5 +2591,53 @@ const PLACES = [
     "lat": 27.94599,
     "lng": -82.526437,
     "approx": false
+  },
+  {
+    "id": 217,
+    "name": "Rice X Beans",
+    "cuisine": "Brazilian",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": null,
+    "lat": 40.763522,
+    "lng": -73.992424,
+    "approx": false
+  },
+  {
+    "id": 218,
+    "name": "Koukla Espresso Bar",
+    "cuisine": "Mediterranean Cafe",
+    "category": "Cafe",
+    "region": "nyc",
+    "location": "Astoria, Queens",
+    "mapQuery": null,
+    "lat": 40.758474,
+    "lng": -73.92882,
+    "approx": false
+  },
+  {
+    "id": 219,
+    "name": "The Gyro Project",
+    "cuisine": "Greek / Mediterranean",
+    "category": "Fast Casual",
+    "region": "nyc",
+    "location": "Hudson Yards, New York City",
+    "mapQuery": null,
+    "lat": 40.756949,
+    "lng": -73.998026,
+    "approx": false
+  },
+  {
+    "id": 220,
+    "name": "The Stinger Cocktail Bar & Kitchen",
+    "cuisine": "Cocktails / American",
+    "category": "Bar / Pub",
+    "region": "nyc",
+    "location": "Times Square, New York City",
+    "mapQuery": null,
+    "lat": 40.758861,
+    "lng": -73.989869,
+    "approx": false
   }
 ];
