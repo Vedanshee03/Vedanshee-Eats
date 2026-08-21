@@ -218,5 +218,22 @@
   {"id": 218, "name": "Rice X Beans", "cuisine": "Brazilian", "category": "Restaurant", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Rice X Beans, 688 10th Ave, New York, NY 10019"},
   {"id": 219, "name": "Koukla Espresso Bar", "cuisine": "Mediterranean Cafe", "category": "Cafe", "region": "nyc", "location": "Astoria, Queens", "query": "Koukla Espresso Bar, 30-09 35th Ave, Astoria, NY 11106"},
   {"id": 220, "name": "The Gyro Project", "cuisine": "Greek / Mediterranean", "category": "Fast Casual", "region": "nyc", "location": "Hudson Yards, New York City", "query": "The Gyro Project, 505 W 37th St, New York, NY 10018"},
-  {"id": 221, "name": "The Stinger Cocktail Bar & Kitchen", "cuisine": "Cocktails / American", "category": "Bar / Pub", "region": "nyc", "location": "Times Square, New York City", "query": "The Stinger Cocktail Bar & Kitchen, 300 W 44th St, New York, NY 10036"}
+  {"id": 221, "name": "The Stinger Cocktail Bar & Kitchen", "cuisine": "Cocktails / American", "category": "Bar / Pub", "region": "nyc", "location": "Times Square, New York City", "query": "The Stinger Cocktail Bar & Kitchen, 300 W 44th St, New York, NY 10036"},
+  {"id": 222, "name": "Upland Brewing Company", "cuisine": "Brewery / American", "category": "Bar / Pub", "region": "indiana", "location": "Columbus, Indiana", "query": "Upland Brewing Co, 148 Lindsey St, Columbus, IN 47201"},
+  {"id": 223, "name": "Taku Steakhouse", "cuisine": "Japanese Hibachi / Sushi", "category": "Restaurant", "region": "indiana", "location": "Columbus, Indiana", "query": "Taku Steakhouse, 305 4th St, Columbus, IN 47201"},
+  {"id": 224, "name": "Thai Connection", "cuisine": "Thai", "category": "Restaurant", "region": "indiana", "location": "Columbus, Indiana", "query": "Thai Connection, 527 Washington St, Columbus, IN 47201"},
+  {"id": 225, "name": "Fresh Take Kitchen", "cuisine": "Healthy Fast Casual", "category": "Fast Casual", "region": "indiana", "location": "Columbus, Indiana", "query": "Fresh Take Kitchen, 424 Washington St, Columbus, IN 47201"},
+  {"id": 226, "name": "Lucabe Coffee Co", "cuisine": "Coffee", "category": "Coffee", "region": "indiana", "location": "Columbus, Indiana", "query": "Lucabe Coffee Co, 310 4th St, Columbus, IN 47201"},
+  {"id": 227, "name": "Yats", "cuisine": "Cajun / Creole", "category": "Restaurant", "region": "indiana", "location": "Columbus, Indiana", "query": "Yats, 325 4th St, Columbus, IN 47201"},
+  {"id": 228, "name": "Marco's Pizza", "cuisine": "Pizza", "category": "Pizza", "region": "indiana", "location": "Columbus, Indiana", "query": "Marco's Pizza, 2019 25th St, Columbus, IN 47201"},
+  {"id": 229, "name": "Pho Shiki", "cuisine": "Vietnamese / Japanese", "category": "Restaurant", "region": "indiana", "location": "Columbus, Indiana", "query": "Pho Shiki, 2991 25th St, Columbus, IN 47203"},
+  {"id": 230, "name": "Winnie Tea Bar", "cuisine": "Bubble Tea", "category": "Bubble Tea", "region": "indiana", "location": "Columbus, Indiana", "query": "Winnie Tea Bar, 300 Washington St, Columbus, IN 47201"},
+  {"id": 231, "name": "Yummy Bowl", "cuisine": "Mongolian / Sushi", "category": "Restaurant", "region": "indiana", "location": "Columbus, Indiana", "query": "Yummy Bowl, 1455 N National Rd, Columbus, IN 47201"},
+  {"id": 232, "name": "E Sushi", "cuisine": "Japanese / Sushi", "category": "Restaurant", "region": "indiana", "location": "Columbus, Indiana", "query": "E Sushi, 3820 E 25th St, Columbus, IN 47203"},
+  {"id": 233, "name": "Fazoli's", "cuisine": "Italian Fast Casual", "category": "Fast Casual", "region": "indiana", "location": "Columbus, Indiana", "query": "Fazoli's, 3041 N National Rd, Columbus, IN 47201"},
+  {"id": 234, "name": "Olesya's Kitchen", "cuisine": "Ukrainian", "category": "Restaurant", "region": "indiana", "location": "Columbus, Indiana", "query": "Olesya's Kitchen, 908 25th St Suite C, Columbus, IN 47201"},
+  {"id": 235, "name": "Panera Bread", "cuisine": "Bakery Cafe", "category": "Cafe", "region": "indiana", "location": "Columbus, Indiana", "query": "Panera Bread, 3056 Columbus Center, Columbus, IN 47203"},
+  {"id": 236, "name": "Le Fernandez Cafe", "cuisine": "Cafe / Bakery", "category": "Cafe", "region": "indiana", "location": "Columbus, Indiana", "query": "Le Fernandez Cafe, 908 25th St, Columbus, IN 47201"},
+  {"id": 237, "name": "Masala Magic", "cuisine": "Indian", "category": "Restaurant", "region": "indiana", "location": "Columbus, Indiana", "query": "Masala Magic, 217 Washington St Suite A, Columbus, IN 47201"},
+  {"id": 238, "name": "Buca di Beppo", "cuisine": "Italian", "category": "Restaurant", "region": "indiana", "location": "Indianapolis, Indiana", "query": "Buca di Beppo, 35 N Illinois St, Indianapolis, IN 46204"}
 ]

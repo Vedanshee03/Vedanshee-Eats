@@ -143,6 +143,23 @@ MANUAL = {
     219: (40.758474, -73.928820, False),   # Koukla Espresso Bar - Astoria
     220: (40.756949, -73.998026, False),   # The Gyro Project - Hudson Yards
     221: (40.758861, -73.989869, False),   # The Stinger Cocktail Bar & Kitchen
+    222: (39.199840, -85.925248, False),   # Upland Brewing Company - Columbus IN
+    223: (39.202298, -85.922284, False),   # Taku Steakhouse
+    224: (39.204214, -85.920947, False),   # Thai Connection
+    225: (39.203080, -85.921323, False),   # Fresh Take Kitchen
+    226: (39.203022, -85.922147, False),   # Lucabe Coffee Co - downtown
+    227: (39.202161, -85.921988, False),   # Yats
+    228: (39.222743, -85.902050, False),   # Marco's Pizza - 25th St
+    229: (39.222853, -85.887871, False),   # Pho Shiki
+    230: (39.201910, -85.921460, False),   # Winnie Tea Bar - downtown
+    231: (39.214589, -85.880523, False),   # Yummy Bowl
+    232: (39.223498, -85.877959, False),   # E Sushi
+    233: (39.229381, -85.900221, False),   # Fazoli's
+    234: (39.223163, -85.915107, False),   # Olesya's Kitchen
+    235: (39.220906, -85.887644, False),   # Panera Bread
+    236: (39.223147, -85.915318, False),   # Le Fernandez Cafe
+    237: (39.200921, -85.920746, False),   # Masala Magic
+    238: (39.767960, -86.159673, False),   # Buca di Beppo - Indianapolis
 }
 
 GOOGLE_QUERIES = {
