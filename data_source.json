@@ -235,5 +235,8 @@
   {"id": 235, "name": "Panera Bread", "cuisine": "Bakery Cafe", "category": "Cafe", "region": "indiana", "location": "Columbus, Indiana", "query": "Panera Bread, 3056 Columbus Center, Columbus, IN 47203"},
   {"id": 236, "name": "Le Fernandez Cafe", "cuisine": "Cafe / Bakery", "category": "Cafe", "region": "indiana", "location": "Columbus, Indiana", "query": "Le Fernandez Cafe, 908 25th St, Columbus, IN 47201"},
   {"id": 237, "name": "Masala Magic", "cuisine": "Indian", "category": "Restaurant", "region": "indiana", "location": "Columbus, Indiana", "query": "217 Washington St Ste A, Columbus, IN 47201"},
-  {"id": 238, "name": "Buca di Beppo", "cuisine": "Italian", "category": "Restaurant", "region": "indiana", "location": "Indianapolis, Indiana", "query": "Buca di Beppo, 35 N Illinois St, Indianapolis, IN 46204"}
+  {"id": 238, "name": "Buca di Beppo", "cuisine": "Italian", "category": "Restaurant", "region": "indiana", "location": "Indianapolis, Indiana", "query": "Buca di Beppo, 35 N Illinois St, Indianapolis, IN 46204"},
+  {"id": 239, "name": "Vesuvio Bakery", "cuisine": "Italian Bakery", "category": "Bakery", "region": "nyc", "location": "SoHo, New York City", "query": "Vesuvio Bakery, 160 Prince St, New York, NY 10012"},
+  {"id": 240, "name": "Kailash Parbat", "cuisine": "Indian / Vegetarian", "category": "Restaurant", "region": "nyc", "location": "Kips Bay, New York City", "query": "Kailash Parbat, 99 Lexington Ave, New York, NY 10016"},
+  {"id": 241, "name": "Afficionado Coffee Roasters", "cuisine": "Coffee", "category": "Coffee", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Afficionado Coffee Roasters, 750 11th Ave, New York, NY 10019"}
 ]

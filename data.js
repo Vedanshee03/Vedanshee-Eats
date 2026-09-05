@@ -2843,5 +2843,41 @@ const PLACES = [
     "lat": 39.76796,
     "lng": -86.159673,
     "approx": false
+  },
+  {
+    "id": 238,
+    "name": "Vesuvio Bakery",
+    "cuisine": "Italian Bakery",
+    "category": "Bakery",
+    "region": "nyc",
+    "location": "SoHo, New York City",
+    "mapQuery": null,
+    "lat": 40.725937,
+    "lng": -74.001416,
+    "approx": false
+  },
+  {
+    "id": 239,
+    "name": "Kailash Parbat",
+    "cuisine": "Indian / Vegetarian",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "Kips Bay, New York City",
+    "mapQuery": null,
+    "lat": 40.742094,
+    "lng": -73.982686,
+    "approx": false
+  },
+  {
+    "id": 240,
+    "name": "Afficionado Coffee Roasters",
+    "cuisine": "Coffee",
+    "category": "Coffee",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": null,
+    "lat": 40.767574,
+    "lng": -73.993169,
+    "approx": false
   }
 ];

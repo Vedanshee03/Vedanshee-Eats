@@ -160,6 +160,9 @@ MANUAL = {
     236: (39.223147, -85.915318, False),   # Le Fernandez Cafe
     237: (39.200843, -85.920796, False),   # Masala Magic - 217 Washington St Ste A
     238: (39.767960, -86.159673, False),   # Buca di Beppo - Indianapolis
+    239: (40.725937, -74.001416, False),   # Vesuvio Bakery - SoHo
+    240: (40.742094, -73.982686, False),   # Kailash Parbat - Kips Bay
+    241: (40.767574, -73.993169, False),   # Afficionado Coffee Roasters - Hell's Kitchen
 }
 
 GOOGLE_QUERIES = {
