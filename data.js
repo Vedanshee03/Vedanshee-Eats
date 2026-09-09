@@ -2879,5 +2879,41 @@ const PLACES = [
     "lat": 40.767574,
     "lng": -73.993169,
     "approx": false
+  },
+  {
+    "id": 241,
+    "name": "L'industrie Pizza",
+    "cuisine": "Pizza",
+    "category": "Pizza",
+    "region": "nyc",
+    "location": "Williamsburg, Brooklyn",
+    "mapQuery": null,
+    "lat": 40.711576,
+    "lng": -73.957803,
+    "approx": false
+  },
+  {
+    "id": 242,
+    "name": "Cafe Roma",
+    "cuisine": "Italian Cafe / Bakery",
+    "category": "Cafe",
+    "region": "nyc",
+    "location": "Little Italy, New York City",
+    "mapQuery": null,
+    "lat": 40.720329,
+    "lng": -73.996756,
+    "approx": false
+  },
+  {
+    "id": 243,
+    "name": "Khaosan",
+    "cuisine": "Thai",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "Brooklyn Heights, Brooklyn",
+    "mapQuery": null,
+    "lat": 40.694578,
+    "lng": -73.994254,
+    "approx": false
   }
 ];

@@ -163,6 +163,9 @@ MANUAL = {
     239: (40.725937, -74.001416, False),   # Vesuvio Bakery - SoHo
     240: (40.742094, -73.982686, False),   # Kailash Parbat - Kips Bay
     241: (40.767574, -73.993169, False),   # Afficionado Coffee Roasters - Hell's Kitchen
+    242: (40.711576, -73.957803, False),   # L'industrie Pizza - Williamsburg
+    243: (40.720329, -73.996756, False),   # Cafe Roma - Little Italy
+    244: (40.694578, -73.994254, False),   # Khaosan - Brooklyn Heights
 }
 
 GOOGLE_QUERIES = {

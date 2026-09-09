@@ -238,5 +238,8 @@
   {"id": 238, "name": "Buca di Beppo", "cuisine": "Italian", "category": "Restaurant", "region": "indiana", "location": "Indianapolis, Indiana", "query": "Buca di Beppo, 35 N Illinois St, Indianapolis, IN 46204"},
   {"id": 239, "name": "Vesuvio Bakery", "cuisine": "Italian Bakery", "category": "Bakery", "region": "nyc", "location": "SoHo, New York City", "query": "Vesuvio Bakery, 160 Prince St, New York, NY 10012"},
   {"id": 240, "name": "Kailash Parbat", "cuisine": "Indian / Vegetarian", "category": "Restaurant", "region": "nyc", "location": "Kips Bay, New York City", "query": "Kailash Parbat, 99 Lexington Ave, New York, NY 10016"},
-  {"id": 241, "name": "Afficionado Coffee Roasters", "cuisine": "Coffee", "category": "Coffee", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Afficionado Coffee Roasters, 750 11th Ave, New York, NY 10019"}
+  {"id": 241, "name": "Afficionado Coffee Roasters", "cuisine": "Coffee", "category": "Coffee", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Afficionado Coffee Roasters, 750 11th Ave, New York, NY 10019"},
+  {"id": 242, "name": "L'industrie Pizza", "cuisine": "Pizza", "category": "Pizza", "region": "nyc", "location": "Williamsburg, Brooklyn", "query": "L'industrie Pizzeria, 254 S 2nd St, Brooklyn, NY 11211"},
+  {"id": 243, "name": "Cafe Roma", "cuisine": "Italian Cafe / Bakery", "category": "Cafe", "region": "nyc", "location": "Little Italy, New York City", "query": "Caffe Roma, 385 Broome St, New York, NY 10013"},
+  {"id": 244, "name": "Khaosan", "cuisine": "Thai", "category": "Restaurant", "region": "nyc", "location": "Brooklyn Heights, Brooklyn", "query": "Khaosan, 128 Montague St, Brooklyn, NY 11201"}
 ]
