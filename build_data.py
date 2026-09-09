@@ -166,6 +166,7 @@ MANUAL = {
     242: (40.711576, -73.957803, False),   # L'industrie Pizza - Williamsburg
     243: (40.720329, -73.996756, False),   # Cafe Roma - Little Italy
     244: (40.694578, -73.994254, False),   # Khaosan - Brooklyn Heights
+    245: (40.759561, -73.826211, False),   # Morning Bakery - Flushing Chinatown
 }
 
 GOOGLE_QUERIES = {

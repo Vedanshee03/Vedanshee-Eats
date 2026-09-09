@@ -2915,5 +2915,17 @@ const PLACES = [
     "lat": 40.694578,
     "lng": -73.994254,
     "approx": false
+  },
+  {
+    "id": 244,
+    "name": "Morning Bakery",
+    "cuisine": "Chinese Bakery",
+    "category": "Bakery",
+    "region": "nyc",
+    "location": "Flushing Chinatown, Queens",
+    "mapQuery": null,
+    "lat": 40.759561,
+    "lng": -73.826211,
+    "approx": false
   }
 ];
