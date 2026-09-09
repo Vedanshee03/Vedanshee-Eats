@@ -71,6 +71,10 @@ function makeIcon(place) {
   });
 }
 
+function isCompactLayout() {
+  return window.matchMedia("(max-width: 860px), (max-height: 520px)").matches;
+}
+
 function popupHtml(place) {
   const s = styleFor(place.category);
   const quip = QUIPS[place.id % QUIPS.length];
@@ -82,14 +86,85 @@ function popupHtml(place) {
     <div class="popup-location">${place.location}</div>
     <div class="popup-quip">${quip}</div>
     <a class="popup-link" href="${gmaps}" target="_blank" rel="noopener">Open in Google Maps →</a>
+    <button type="button" class="popup-back-list">↓ Back to list</button>
   </div>`;
+}
+
+let pendingReturnId = null;
+let suppressReturnScroll = false;
+
+function scrollMapIntoView() {
+  document.querySelector(".map-wrap")?.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function scrollCardIntoView(id) {
+  const card = listEl.querySelector(`[data-id="${id}"]`);
+  if (!card) return;
+  card.classList.add("active");
+  card.scrollIntoView({ block: "center", behavior: "smooth" });
+}
+
+function focusPlace(place, { fromList = false } = {}) {
+  const marker = markers.get(place.id);
+  if (!marker) return;
+
+  pendingReturnId = place.id;
+  highlightCard(place.id, { scroll: !isCompactLayout() });
+
+  const showOnMap = () => {
+    map.invalidateSize();
+    map.flyTo(marker.getLatLng(), 16, { duration: 0.8 });
+    suppressReturnScroll = true;
+    marker.openPopup();
+    setTimeout(() => {
+      suppressReturnScroll = false;
+    }, 150);
+  };
+
+  if (isCompactLayout() && fromList) {
+    scrollMapIntoView();
+    setTimeout(showOnMap, 420);
+  } else {
+    showOnMap();
+  }
 }
 
 PLACES.forEach((place) => {
   const marker = L.marker([place.lat, place.lng], { icon: makeIcon(place) })
     .bindPopup(popupHtml(place));
-  marker.on("click", () => highlightCard(place.id));
+  marker.on("click", () => {
+    pendingReturnId = place.id;
+    highlightCard(place.id, { scroll: !isCompactLayout() });
+  });
   markers.set(place.id, marker);
+});
+
+map.on("popupclose", () => {
+  if (suppressReturnScroll || pendingReturnId == null || !isCompactLayout()) return;
+  const id = pendingReturnId;
+  pendingReturnId = null;
+  setTimeout(() => scrollCardIntoView(id), 60);
+});
+
+map.getContainer().addEventListener("click", (e) => {
+  const back = e.target.closest(".popup-back-list");
+  if (!back) return;
+  e.preventDefault();
+  map.closePopup();
+});
+
+map.getContainer().addEventListener("click", (e) => {
+  const link = e.target.closest(".popup-link");
+  if (!link || !isCompactLayout() || pendingReturnId == null) return;
+  const id = pendingReturnId;
+  // After opening Google Maps, drop back to the list so browsing can continue
+  setTimeout(() => {
+    if (pendingReturnId === id) {
+      pendingReturnId = null;
+      map.closePopup();
+      scrollCardIntoView(id);
+    }
+  }, 350);
 });
 
 /* — Filters — */
@@ -197,12 +272,7 @@ function render() {
       <h3>${place.name}</h3>
       <div class="place-meta"><span class="cat-dot" style="background:${s.color}"></span>${s.emoji} ${place.cuisine}</div>
       <div class="place-location">${place.location}</div>`;
-    li.addEventListener("click", () => {
-      const marker = markers.get(place.id);
-      map.flyTo(marker.getLatLng(), 16, { duration: 0.8 });
-      marker.openPopup();
-      highlightCard(place.id);
-    });
+    li.addEventListener("click", () => focusPlace(place, { fromList: true }));
     listEl.appendChild(li);
   });
 }
@@ -220,13 +290,12 @@ function fitVisiblePlaces() {
   );
 }
 
-function highlightCard(id) {
+function highlightCard(id, { scroll = true } = {}) {
   listEl.querySelectorAll(".place-card").forEach((c) => c.classList.remove("active"));
   const card = listEl.querySelector(`[data-id="${id}"]`);
-  if (card) {
-    card.classList.add("active");
-    card.scrollIntoView({ block: "nearest", behavior: "smooth" });
-  }
+  if (!card) return;
+  card.classList.add("active");
+  if (scroll) card.scrollIntoView({ block: "nearest", behavior: "smooth" });
 }
 
 /* — Rotating quotes — */

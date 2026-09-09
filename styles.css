@@ -375,6 +375,20 @@ body {
   text-decoration: underline;
 }
 
+.popup-back-list {
+  display: none;
+  width: 100%;
+  margin-top: 10px;
+  padding: 9px 12px;
+  border: 1.5px solid var(--autumn-deep);
+  border-radius: 8px;
+  background: var(--paper);
+  color: var(--autumn-deep);
+  font-family: "Lora", serif;
+  font-size: 13px;
+  cursor: pointer;
+}
+
 /* — Footer — */
 .site-footer {
   text-align: center;
@@ -417,4 +431,6 @@ body {
     flex: none;
     overflow-y: visible;
   }
+
+  .popup-back-list { display: block; }
 }
