@@ -2927,5 +2927,89 @@ const PLACES = [
     "lat": 40.759561,
     "lng": -73.826211,
     "approx": false
+  },
+  {
+    "id": 245,
+    "name": "Rex Coffee",
+    "cuisine": "Coffee / Breakfast",
+    "category": "Coffee",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": null,
+    "lat": 40.768828,
+    "lng": -73.988559,
+    "approx": false
+  },
+  {
+    "id": 246,
+    "name": "Frisson Espresso",
+    "cuisine": "Coffee",
+    "category": "Coffee",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": null,
+    "lat": 40.760849,
+    "lng": -73.988969,
+    "approx": false
+  },
+  {
+    "id": 247,
+    "name": "Piccola Cucina",
+    "cuisine": "Sicilian Italian",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "SoHo, New York City",
+    "mapQuery": null,
+    "lat": 40.724992,
+    "lng": -74.003233,
+    "approx": false
+  },
+  {
+    "id": 248,
+    "name": "Dirt Candy",
+    "cuisine": "Vegetarian Tasting Menu",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "Lower East Side, New York City",
+    "mapQuery": null,
+    "lat": 40.717878,
+    "lng": -73.990789,
+    "approx": false
+  },
+  {
+    "id": 249,
+    "name": "Caspian Crust",
+    "cuisine": "Turkish Bakery / Cafe",
+    "category": "Cafe",
+    "region": "dc",
+    "location": "Georgetown, Washington, DC",
+    "mapQuery": "Caspian Crust, 1826 Wisconsin Ave NW, Washington, DC 20007",
+    "lat": 38.915281,
+    "lng": -77.067738,
+    "approx": false
+  },
+  {
+    "id": 250,
+    "name": "Rice Market",
+    "cuisine": "Pan-Asian Market / Thai",
+    "category": "Market",
+    "region": "dc",
+    "location": "Logan Circle, Washington, DC",
+    "mapQuery": "Rice Market, 1608 14th St NW, Washington, DC 20009",
+    "lat": 38.911496,
+    "lng": -77.032357,
+    "approx": false
+  },
+  {
+    "id": 251,
+    "name": "Grace Street Coffee Roasters",
+    "cuisine": "Coffee",
+    "category": "Coffee",
+    "region": "dc",
+    "location": "Georgetown, Washington, DC",
+    "mapQuery": "Grace Street Coffee Roasters, 3299 K St NW, Washington, DC 20007",
+    "lat": 38.903372,
+    "lng": -77.064724,
+    "approx": false
   }
 ];

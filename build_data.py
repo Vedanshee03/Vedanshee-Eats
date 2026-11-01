@@ -167,6 +167,13 @@ MANUAL = {
     243: (40.720329, -73.996756, False),   # Cafe Roma - Little Italy
     244: (40.694578, -73.994254, False),   # Khaosan - Brooklyn Heights
     245: (40.759561, -73.826211, False),   # Morning Bakery - Flushing Chinatown
+    246: (40.768828, -73.988559, False),   # Rex Coffee - Hell's Kitchen
+    247: (40.760849, -73.988969, False),   # Frisson Espresso - Hell's Kitchen
+    248: (40.724992, -74.003233, False),   # Piccola Cucina Osteria - SoHo
+    249: (40.717878, -73.990789, False),   # Dirt Candy - Lower East Side
+    250: (38.915281, -77.067738, False),   # Caspian Crust - Georgetown
+    251: (38.911496, -77.032357, False),   # Rice Market - Logan Circle
+    252: (38.903372, -77.064724, False),   # Grace Street Coffee Roasters - Georgetown
 }
 
 GOOGLE_QUERIES = {
