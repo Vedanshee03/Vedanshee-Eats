@@ -71,6 +71,20 @@ function makeIcon(place) {
   });
 }
 
+const MICHELIN_ROSETTE = `<svg viewBox="0 0 24 24" aria-hidden="true"><g fill="currentColor">${
+  [0, 60, 120, 180, 240, 300].map((a) => `<circle cx="12" cy="5.6" r="4.4" transform="rotate(${a} 12 12)"/>`).join("")
+}</g><path fill="#fff" d="M12 8.2l1.1 2.3 2.5.3-1.8 1.7.5 2.5-2.3-1.2-2.3 1.2.5-2.5-1.8-1.7 2.5-.3z"/></svg>`;
+
+function michelinLabel(place) {
+  return `${place.michelin} Michelin Star${place.michelin > 1 ? "s" : ""}`;
+}
+
+function michelinBadge(place) {
+  if (!place.michelin) return "";
+  const label = michelinLabel(place);
+  return `<span class="michelin-badge" title="${label}" aria-label="${label}">${MICHELIN_ROSETTE.repeat(place.michelin)}</span>`;
+}
+
 function isCompactLayout() {
   return window.matchMedia("(max-width: 860px), (max-height: 520px)").matches;
 }
@@ -81,7 +95,8 @@ function popupHtml(place) {
   const gmaps = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.mapQuery || `${place.name}, ${place.location}`)}`;
   return `<div class="popup-inner">
     <div class="popup-cat">${s.emoji} ${place.category}</div>
-    <h3>${place.name}</h3>
+    <h3>${place.name}${michelinBadge(place)}</h3>
+    ${place.michelin ? `<div class="popup-michelin">${michelinLabel(place)}</div>` : ""}
     <div class="popup-cuisine">${place.cuisine}${place.approx ? " · pin location approximate" : ""}</div>
     <div class="popup-location">${place.location}</div>
     <div class="popup-quip">${quip}</div>
@@ -269,7 +284,7 @@ function render() {
     li.dataset.id = place.id;
     li.innerHTML = `
       <div class="place-num">No. ${place.id}</div>
-      <h3>${place.name}</h3>
+      <h3>${place.name}${michelinBadge(place)}</h3>
       <div class="place-meta"><span class="cat-dot" style="background:${s.color}"></span>${s.emoji} ${place.cuisine}</div>
       <div class="place-location">${place.location}</div>`;
     li.addEventListener("click", () => focusPlace(place, { fromList: true }));

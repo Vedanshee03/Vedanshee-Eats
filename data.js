@@ -2974,7 +2974,8 @@ const PLACES = [
     "mapQuery": null,
     "lat": 40.717878,
     "lng": -73.990789,
-    "approx": false
+    "approx": false,
+    "michelin": 1
   },
   {
     "id": 249,

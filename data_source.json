@@ -246,7 +246,7 @@
   {"id": 246, "name": "Rex Coffee", "cuisine": "Coffee / Breakfast", "category": "Coffee", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "REX, 864 10th Ave, New York, NY 10019"},
   {"id": 247, "name": "Frisson Espresso", "cuisine": "Coffee", "category": "Coffee", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Frisson Espresso, 326 W 47th St, New York, NY 10036"},
   {"id": 248, "name": "Piccola Cucina", "cuisine": "Sicilian Italian", "category": "Restaurant", "region": "nyc", "location": "SoHo, New York City", "query": "Piccola Cucina Osteria, 196 Spring St, New York, NY 10012"},
-  {"id": 249, "name": "Dirt Candy", "cuisine": "Vegetarian Tasting Menu", "category": "Restaurant", "region": "nyc", "location": "Lower East Side, New York City", "query": "Dirt Candy, 86 Allen St, New York, NY 10002"},
+  {"id": 249, "name": "Dirt Candy", "cuisine": "Vegetarian Tasting Menu", "category": "Restaurant", "region": "nyc", "location": "Lower East Side, New York City", "query": "Dirt Candy, 86 Allen St, New York, NY 10002", "michelin": 1},
   {"id": 250, "name": "Caspian Crust", "cuisine": "Turkish Bakery / Cafe", "category": "Cafe", "region": "dc", "location": "Georgetown, Washington, DC", "query": "Caspian Crust, 1826 Wisconsin Ave NW, Washington, DC 20007"},
   {"id": 251, "name": "Rice Market", "cuisine": "Pan-Asian Market / Thai", "category": "Market", "region": "dc", "location": "Logan Circle, Washington, DC", "query": "Rice Market, 1608 14th St NW, Washington, DC 20009"},
   {"id": 252, "name": "Grace Street Coffee Roasters", "cuisine": "Coffee", "category": "Coffee", "region": "dc", "location": "Georgetown, Washington, DC", "query": "Grace Street Coffee Roasters, 3299 K St NW, Washington, DC 20007"}
