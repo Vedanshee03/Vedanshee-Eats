@@ -194,6 +194,7 @@ MANUAL = {
     270: (30.263615, -97.743904, False),   # Fareground - One Eleven Congress, Austin
     271: (30.262727, -97.743688, False),   # Alfred Coffee - The LINE Austin
     272: (30.256425, -97.738871, False),   # Cuvée Coffee - Natiivo lobby, Rainey St, Austin
+    273: (30.261574, -97.724348, False),   # Tamale House East - East 6th St, Austin
 }
 
 GOOGLE_QUERIES = {

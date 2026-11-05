@@ -3252,5 +3252,17 @@ const PLACES = [
     "lat": 30.256425,
     "lng": -97.738871,
     "approx": false
+  },
+  {
+    "id": 272,
+    "name": "Tamale House East",
+    "cuisine": "Mexican / Tex-Mex",
+    "category": "Restaurant",
+    "region": "texas",
+    "location": "East Austin, Texas",
+    "mapQuery": "Tamale House East, 1707 E 6th St, Austin, TX 78702",
+    "lat": 30.261574,
+    "lng": -97.724348,
+    "approx": false
   }
 ];
