@@ -174,6 +174,11 @@ MANUAL = {
     250: (38.915281, -77.067738, False),   # Caspian Crust - Georgetown
     251: (38.911496, -77.032357, False),   # Rice Market - Logan Circle
     252: (38.903372, -77.064724, False),   # Grace Street Coffee Roasters - Georgetown
+    253: (40.729318, -73.998320, False),   # Spicy Moon - West Village (68 W 3rd St)
+    254: (40.731804, -73.958127, False),   # Chinta Thai - Greenpoint
+    255: (40.732664, -73.985162, False),   # Saperavi - East Village (245 E 14th St)
+    256: (40.753881, -73.984932, False),   # Breads Bakery - Bryant Park (1080 6th Ave)
+    257: (40.753751, -73.983543, True),    # Toastieland - Bryant Park Winter Village stall
 }
 
 GOOGLE_QUERIES = {
@@ -184,6 +189,14 @@ GOOGLE_QUERIES = {
     106: "Taboonette, 30 E 13th St, New York, NY 10003",
     # Exact suite address — business name may not resolve in Google Maps
     237: "217 Washington St Ste A, Columbus, IN 47201",
+    # Multi-branch chains — pin the specific branch visited
+    246: "REX, 864 10th Ave, New York, NY 10019",
+    247: "Frisson Espresso, 326 W 47th St, New York, NY 10036",
+    248: "Piccola Cucina Osteria, 196 Spring St, New York, NY 10012",
+    253: "Spicy Moon, 68 W 3rd St, New York, NY 10012",
+    255: "Saperavi, 245 E 14th St, New York, NY 10003",
+    256: "Breads Bakery, 1080 6th Ave, New York, NY 10036",
+    257: "Bank of America Winter Village at Bryant Park, New York, NY 10018",
 }
 
 with open("geocoded.json") as f:

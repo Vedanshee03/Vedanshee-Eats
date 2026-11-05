@@ -2935,7 +2935,7 @@ const PLACES = [
     "category": "Coffee",
     "region": "nyc",
     "location": "Hell's Kitchen, New York City",
-    "mapQuery": null,
+    "mapQuery": "REX, 864 10th Ave, New York, NY 10019",
     "lat": 40.768828,
     "lng": -73.988559,
     "approx": false
@@ -2947,7 +2947,7 @@ const PLACES = [
     "category": "Coffee",
     "region": "nyc",
     "location": "Hell's Kitchen, New York City",
-    "mapQuery": null,
+    "mapQuery": "Frisson Espresso, 326 W 47th St, New York, NY 10036",
     "lat": 40.760849,
     "lng": -73.988969,
     "approx": false
@@ -2959,7 +2959,7 @@ const PLACES = [
     "category": "Restaurant",
     "region": "nyc",
     "location": "SoHo, New York City",
-    "mapQuery": null,
+    "mapQuery": "Piccola Cucina Osteria, 196 Spring St, New York, NY 10012",
     "lat": 40.724992,
     "lng": -74.003233,
     "approx": false
@@ -3012,5 +3012,65 @@ const PLACES = [
     "lat": 38.903372,
     "lng": -77.064724,
     "approx": false
+  },
+  {
+    "id": 252,
+    "name": "Spicy Moon",
+    "cuisine": "Vegan Szechuan",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "West Village, New York City",
+    "mapQuery": "Spicy Moon, 68 W 3rd St, New York, NY 10012",
+    "lat": 40.729318,
+    "lng": -73.99832,
+    "approx": false
+  },
+  {
+    "id": 253,
+    "name": "Chinta Thai",
+    "cuisine": "Thai",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "Greenpoint, Brooklyn",
+    "mapQuery": null,
+    "lat": 40.731804,
+    "lng": -73.958127,
+    "approx": false
+  },
+  {
+    "id": 254,
+    "name": "Saperavi Georgian Eatery & Wine",
+    "cuisine": "Georgian",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "East Village, New York City",
+    "mapQuery": "Saperavi, 245 E 14th St, New York, NY 10003",
+    "lat": 40.732664,
+    "lng": -73.985162,
+    "approx": false
+  },
+  {
+    "id": 255,
+    "name": "Breads Bakery",
+    "cuisine": "Bakery / Babka",
+    "category": "Bakery",
+    "region": "nyc",
+    "location": "Bryant Park, New York City",
+    "mapQuery": "Breads Bakery, 1080 6th Ave, New York, NY 10036",
+    "lat": 40.753881,
+    "lng": -73.984932,
+    "approx": false
+  },
+  {
+    "id": 256,
+    "name": "Toastieland",
+    "cuisine": "Australian Grilled Cheese",
+    "category": "Street Food",
+    "region": "nyc",
+    "location": "Bryant Park Winter Village, New York City",
+    "mapQuery": "Bank of America Winter Village at Bryant Park, New York, NY 10018",
+    "lat": 40.753751,
+    "lng": -73.983543,
+    "approx": true
   }
 ];
