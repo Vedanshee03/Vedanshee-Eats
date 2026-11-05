@@ -195,6 +195,8 @@ MANUAL = {
     271: (30.262727, -97.743688, False),   # Alfred Coffee - The LINE Austin
     272: (30.256425, -97.738871, False),   # Cuvée Coffee - Natiivo lobby, Rainey St, Austin
     273: (30.261574, -97.724348, False),   # Tamale House East - East 6th St, Austin
+    274: (30.316147, -97.708497, False),   # Foodpath Indian Cuisine - North Loop, Austin
+    275: (30.308018, -97.750483, False),   # Kerbey Lane Cafe - Central (original), Austin
 }
 
 GOOGLE_QUERIES = {

@@ -3264,5 +3264,29 @@ const PLACES = [
     "lat": 30.261574,
     "lng": -97.724348,
     "approx": false
+  },
+  {
+    "id": 273,
+    "name": "Foodpath Indian Cuisine",
+    "cuisine": "Indian",
+    "category": "Restaurant",
+    "region": "texas",
+    "location": "North Loop, Austin, Texas",
+    "mapQuery": "Foodpath Indian Cuisine, 5610 N Interstate Hwy 35, Austin, TX 78751",
+    "lat": 30.316147,
+    "lng": -97.708497,
+    "approx": false
+  },
+  {
+    "id": 274,
+    "name": "Kerbey Lane Cafe",
+    "cuisine": "All-Day Breakfast / Tex-Mex",
+    "category": "Diner",
+    "region": "texas",
+    "location": "Central (the original), Austin, Texas",
+    "mapQuery": "Kerbey Lane Cafe, 3704 Kerbey Ln, Austin, TX 78731",
+    "lat": 30.308018,
+    "lng": -97.750483,
+    "approx": false
   }
 ];

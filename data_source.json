@@ -270,5 +270,7 @@
   {"id": 270, "name": "Fareground", "cuisine": "Food Hall", "category": "Market", "region": "texas", "location": "Downtown Austin, Texas", "query": "Fareground, 111 Congress Ave, Austin, TX 78701"},
   {"id": 271, "name": "Alfred Coffee", "cuisine": "Coffee / Matcha", "category": "Coffee", "region": "texas", "location": "The LINE Hotel, Austin, Texas", "query": "Alfred Coffee, The LINE Austin, 111 E Cesar Chavez St, Austin, TX 78701"},
   {"id": 272, "name": "Cuvée Coffee at Natiivo", "cuisine": "Coffee / Cocktails", "category": "Coffee", "region": "texas", "location": "Natiivo, Rainey Street, Austin, Texas", "query": "Cuvée Coffee at Natiivo, 48 East Ave, Austin, TX 78701"},
-  {"id": 273, "name": "Tamale House East", "cuisine": "Mexican / Tex-Mex", "category": "Restaurant", "region": "texas", "location": "East Austin, Texas", "query": "Tamale House East, 1707 E 6th St, Austin, TX 78702"}
+  {"id": 273, "name": "Tamale House East", "cuisine": "Mexican / Tex-Mex", "category": "Restaurant", "region": "texas", "location": "East Austin, Texas", "query": "Tamale House East, 1707 E 6th St, Austin, TX 78702"},
+  {"id": 274, "name": "Foodpath Indian Cuisine", "cuisine": "Indian", "category": "Restaurant", "region": "texas", "location": "North Loop, Austin, Texas", "query": "Foodpath Indian Cuisine, 5610 N Interstate Hwy 35, Austin, TX 78751"},
+  {"id": 275, "name": "Kerbey Lane Cafe", "cuisine": "All-Day Breakfast / Tex-Mex", "category": "Diner", "region": "texas", "location": "Central (the original), Austin, Texas", "query": "Kerbey Lane Cafe, 3704 Kerbey Ln, Austin, TX 78731"}
 ]
