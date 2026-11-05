@@ -193,6 +193,7 @@ const regions = [
   { id: "dc", label: "Washington, DC", emoji: "🏛️" },
   { id: "tampa", label: "Tampa", emoji: "🍊" },
   { id: "indiana", label: "Indiana", emoji: "🌽" },
+  { id: "texas", label: "Texas", emoji: "🤠" },
 ];
 const locationFiltersEl = document.getElementById("location-filters");
 

@@ -1,6 +1,6 @@
 # Vedanshee eats — A Stars Hollow Food Diary
 
-A Gilmore Girls–themed interactive map of restaurants, cafes, wineries, bakeries, and coffee stops across New York City, McMinnville, the San Francisco Bay Area, Los Angeles, San Diego, Washington, DC, Tampa, and Indiana.
+A Gilmore Girls–themed interactive map of restaurants, cafes, wineries, bakeries, and coffee stops across New York City, McMinnville, the San Francisco Bay Area, Los Angeles, San Diego, Washington, DC, Tampa, Indiana, and Texas.
 
 ## How to run it
 
@@ -17,7 +17,7 @@ Then open [http://localhost:8741](http://localhost:8741) in your browser.
 ## Features
 
 - Interactive Leaflet map with color-coded, emoji pins for every place
-- Location tabs for Everywhere, New York City, McMinnville, San Francisco Bay Area, Los Angeles, San Diego, Washington, DC, Tampa, and Indiana
+- Location tabs for Everywhere, New York City, McMinnville, San Francisco Bay Area, Los Angeles, San Diego, Washington, DC, Tampa, Indiana, and Texas
 - Filter chips by category (Coffee, Pizza, Wine Tasting, Bagels, etc.)
 - Search box that matches names, cuisines, and locations
 - Click a card in the sidebar to fly to its pin; click a pin to see a Gilmore Girls quip and a Google Maps link

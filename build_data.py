@@ -183,6 +183,16 @@ MANUAL = {
     259: (40.743124, -74.009142, False),   # Ammi - Market 57, Pier 57
     260: (40.743365, -74.009234, False),   # Good to Go by JBF - Market 57, Pier 57
     261: (40.754595, -73.999390, False),   # Russ & Daughters - Hudson Yards (502 W 34th St)
+    262: (29.716252, -95.414832, False),   # Hamsa - Rice Village, Houston
+    263: (29.744721, -95.383522, False),   # Soto - Montrose, Houston
+    264: (29.735472, -95.418788, False),   # Verandah - Kirby Collection, Houston
+    265: (29.736785, -95.418622, False),   # Carrabba's - The Original on Kirby, Houston
+    266: (29.272466, -94.818496, False),   # Grotto - San Luis Resort, Galveston
+    267: (29.307134, -94.782913, False),   # The Sunflower Bakery & Cafe - Galveston
+    268: (30.257075, -97.739324, False),   # Salvation Pizza - Rainey St, Austin
+    269: (30.258702, -97.738691, False),   # Little Lucy's - Rainey St, Austin
+    270: (30.263615, -97.743904, False),   # Fareground - One Eleven Congress, Austin
+    271: (30.262727, -97.743688, False),   # Alfred Coffee - The LINE Austin
 }
 
 GOOGLE_QUERIES = {
