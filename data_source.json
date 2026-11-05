@@ -268,5 +268,6 @@
   {"id": 268, "name": "Salvation Pizza", "cuisine": "New Haven-style Pizza", "category": "Pizza", "region": "texas", "location": "Rainey Street, Austin, Texas", "query": "Salvation Pizza, 51 Rainey St #130, Austin, TX 78701"},
   {"id": 269, "name": "Little Lucy's", "cuisine": "Mini Donuts", "category": "Dessert", "region": "texas", "location": "Rainey Street, Austin, Texas", "query": "Little Lucy's, 75 1/2 Rainey St, Austin, TX 78701"},
   {"id": 270, "name": "Fareground", "cuisine": "Food Hall", "category": "Market", "region": "texas", "location": "Downtown Austin, Texas", "query": "Fareground, 111 Congress Ave, Austin, TX 78701"},
-  {"id": 271, "name": "Alfred Coffee", "cuisine": "Coffee / Matcha", "category": "Coffee", "region": "texas", "location": "The LINE Hotel, Austin, Texas", "query": "Alfred Coffee, The LINE Austin, 111 E Cesar Chavez St, Austin, TX 78701"}
+  {"id": 271, "name": "Alfred Coffee", "cuisine": "Coffee / Matcha", "category": "Coffee", "region": "texas", "location": "The LINE Hotel, Austin, Texas", "query": "Alfred Coffee, The LINE Austin, 111 E Cesar Chavez St, Austin, TX 78701"},
+  {"id": 272, "name": "Cuvée Coffee at Natiivo", "cuisine": "Coffee / Cocktails", "category": "Coffee", "region": "texas", "location": "Natiivo, Rainey Street, Austin, Texas", "query": "Cuvée Coffee at Natiivo, 48 East Ave, Austin, TX 78701"}
 ]

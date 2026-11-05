@@ -3240,5 +3240,17 @@ const PLACES = [
     "lat": 30.262727,
     "lng": -97.743688,
     "approx": false
+  },
+  {
+    "id": 271,
+    "name": "Cuvée Coffee at Natiivo",
+    "cuisine": "Coffee / Cocktails",
+    "category": "Coffee",
+    "region": "texas",
+    "location": "Natiivo, Rainey Street, Austin, Texas",
+    "mapQuery": "Cuvée Coffee at Natiivo, 48 East Ave, Austin, TX 78701",
+    "lat": 30.256425,
+    "lng": -97.738871,
+    "approx": false
   }
 ];

@@ -193,6 +193,7 @@ MANUAL = {
     269: (30.258702, -97.738691, False),   # Little Lucy's - Rainey St, Austin
     270: (30.263615, -97.743904, False),   # Fareground - One Eleven Congress, Austin
     271: (30.262727, -97.743688, False),   # Alfred Coffee - The LINE Austin
+    272: (30.256425, -97.738871, False),   # Cuvée Coffee - Natiivo lobby, Rainey St, Austin
 }
 
 GOOGLE_QUERIES = {
