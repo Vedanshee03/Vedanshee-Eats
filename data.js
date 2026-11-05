@@ -3288,5 +3288,17 @@ const PLACES = [
     "lat": 30.308018,
     "lng": -97.750483,
     "approx": false
+  },
+  {
+    "id": 275,
+    "name": "Van Leeuwen Ice Cream",
+    "cuisine": "Ice Cream",
+    "category": "Dessert",
+    "region": "nyc",
+    "location": "Rockefeller Center, New York City",
+    "mapQuery": "Van Leeuwen Ice Cream, 1250 6th Ave, New York, NY 10020",
+    "lat": 40.759519,
+    "lng": -73.980478,
+    "approx": false
   }
 ];
