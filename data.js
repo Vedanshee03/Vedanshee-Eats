@@ -3084,5 +3084,41 @@ const PLACES = [
     "lat": 40.765524,
     "lng": -73.991575,
     "approx": false
+  },
+  {
+    "id": 258,
+    "name": "Ammi",
+    "cuisine": "Indian / Dosa",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "Market 57 at Pier 57, Chelsea, New York City",
+    "mapQuery": "Ammi, 25 11th Ave, New York, NY 10011",
+    "lat": 40.743124,
+    "lng": -74.009142,
+    "approx": false
+  },
+  {
+    "id": 259,
+    "name": "Good to Go by JBF",
+    "cuisine": "Rotating Chef Menu",
+    "category": "Fast Casual",
+    "region": "nyc",
+    "location": "Market 57 at Pier 57, Chelsea, New York City",
+    "mapQuery": "Good To Go by JBF, 25 11th Ave, New York, NY 10011",
+    "lat": 40.743365,
+    "lng": -74.009234,
+    "approx": false
+  },
+  {
+    "id": 260,
+    "name": "Russ & Daughters",
+    "cuisine": "Jewish Appetizing / Bagels & Lox",
+    "category": "Bagels",
+    "region": "nyc",
+    "location": "Hudson Yards, New York City",
+    "mapQuery": "Russ & Daughters, 502 W 34th St, New York, NY 10001",
+    "lat": 40.754595,
+    "lng": -73.99939,
+    "approx": false
   }
 ];

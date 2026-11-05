@@ -180,6 +180,9 @@ MANUAL = {
     256: (40.753881, -73.984932, False),   # Breads Bakery - Bryant Park (1080 6th Ave)
     257: (40.753751, -73.983543, True),    # Toastieland - Bryant Park Winter Village stall
     258: (40.765524, -73.991575, False),   # Il Melograno - Hell's Kitchen
+    259: (40.743124, -74.009142, False),   # Ammi - Market 57, Pier 57
+    260: (40.743365, -74.009234, False),   # Good to Go by JBF - Market 57, Pier 57
+    261: (40.754595, -73.999390, False),   # Russ & Daughters - Hudson Yards (502 W 34th St)
 }
 
 GOOGLE_QUERIES = {
@@ -198,6 +201,9 @@ GOOGLE_QUERIES = {
     255: "Saperavi, 245 E 14th St, New York, NY 10003",
     256: "Breads Bakery, 1080 6th Ave, New York, NY 10036",
     257: "Bank of America Winter Village at Bryant Park, New York, NY 10018",
+    259: "Ammi, 25 11th Ave, New York, NY 10011",
+    260: "Good To Go by JBF, 25 11th Ave, New York, NY 10011",
+    261: "Russ & Daughters, 502 W 34th St, New York, NY 10001",
 }
 
 with open("geocoded.json") as f:

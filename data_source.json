@@ -255,5 +255,8 @@
   {"id": 255, "name": "Saperavi Georgian Eatery & Wine", "cuisine": "Georgian", "category": "Restaurant", "region": "nyc", "location": "East Village, New York City", "query": "Saperavi, 245 E 14th St, New York, NY 10003"},
   {"id": 256, "name": "Breads Bakery", "cuisine": "Bakery / Babka", "category": "Bakery", "region": "nyc", "location": "Bryant Park, New York City", "query": "Breads Bakery, 1080 6th Ave, New York, NY 10036"},
   {"id": 257, "name": "Toastieland", "cuisine": "Australian Grilled Cheese", "category": "Street Food", "region": "nyc", "location": "Bryant Park Winter Village, New York City", "query": "Toastieland, Bryant Park Winter Village, New York, NY 10018"},
-  {"id": 258, "name": "Il Melograno", "cuisine": "Southern Italian", "category": "Restaurant", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Il Melograno, 501 W 51st St, New York, NY 10019"}
+  {"id": 258, "name": "Il Melograno", "cuisine": "Southern Italian", "category": "Restaurant", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Il Melograno, 501 W 51st St, New York, NY 10019"},
+  {"id": 259, "name": "Ammi", "cuisine": "Indian / Dosa", "category": "Restaurant", "region": "nyc", "location": "Market 57 at Pier 57, Chelsea, New York City", "query": "Ammi, 25 11th Ave, New York, NY 10011"},
+  {"id": 260, "name": "Good to Go by JBF", "cuisine": "Rotating Chef Menu", "category": "Fast Casual", "region": "nyc", "location": "Market 57 at Pier 57, Chelsea, New York City", "query": "Good To Go by JBF, 25 11th Ave, New York, NY 10011"},
+  {"id": 261, "name": "Russ & Daughters", "cuisine": "Jewish Appetizing / Bagels & Lox", "category": "Bagels", "region": "nyc", "location": "Hudson Yards, New York City", "query": "Russ & Daughters, 502 W 34th St, New York, NY 10001"}
 ]
