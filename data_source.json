@@ -254,5 +254,6 @@
   {"id": 254, "name": "Chinta Thai", "cuisine": "Thai", "category": "Restaurant", "region": "nyc", "location": "Greenpoint, Brooklyn", "query": "Chinta Thai, 157 Franklin St, Brooklyn, NY 11222"},
   {"id": 255, "name": "Saperavi Georgian Eatery & Wine", "cuisine": "Georgian", "category": "Restaurant", "region": "nyc", "location": "East Village, New York City", "query": "Saperavi, 245 E 14th St, New York, NY 10003"},
   {"id": 256, "name": "Breads Bakery", "cuisine": "Bakery / Babka", "category": "Bakery", "region": "nyc", "location": "Bryant Park, New York City", "query": "Breads Bakery, 1080 6th Ave, New York, NY 10036"},
-  {"id": 257, "name": "Toastieland", "cuisine": "Australian Grilled Cheese", "category": "Street Food", "region": "nyc", "location": "Bryant Park Winter Village, New York City", "query": "Toastieland, Bryant Park Winter Village, New York, NY 10018"}
+  {"id": 257, "name": "Toastieland", "cuisine": "Australian Grilled Cheese", "category": "Street Food", "region": "nyc", "location": "Bryant Park Winter Village, New York City", "query": "Toastieland, Bryant Park Winter Village, New York, NY 10018"},
+  {"id": 258, "name": "Il Melograno", "cuisine": "Southern Italian", "category": "Restaurant", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Il Melograno, 501 W 51st St, New York, NY 10019"}
 ]

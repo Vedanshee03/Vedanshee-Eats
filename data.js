@@ -3072,5 +3072,17 @@ const PLACES = [
     "lat": 40.753751,
     "lng": -73.983543,
     "approx": true
+  },
+  {
+    "id": 257,
+    "name": "Il Melograno",
+    "cuisine": "Southern Italian",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": null,
+    "lat": 40.765524,
+    "lng": -73.991575,
+    "approx": false
   }
 ];

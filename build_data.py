@@ -179,6 +179,7 @@ MANUAL = {
     255: (40.732664, -73.985162, False),   # Saperavi - East Village (245 E 14th St)
     256: (40.753881, -73.984932, False),   # Breads Bakery - Bryant Park (1080 6th Ave)
     257: (40.753751, -73.983543, True),    # Toastieland - Bryant Park Winter Village stall
+    258: (40.765524, -73.991575, False),   # Il Melograno - Hell's Kitchen
 }
 
 GOOGLE_QUERIES = {
