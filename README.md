@@ -18,6 +18,7 @@ Then open [http://localhost:8741](http://localhost:8741) in your browser.
 
 - Interactive Leaflet map with color-coded, emoji pins for every place
 - Location tabs for Everywhere, New York City, McMinnville, San Francisco Bay Area, Los Angeles, San Diego, Washington, DC, Tampa, Indiana, and Texas
+- "🎭 Shows I've Seen" button on the map with theatre pins for NYC shows (edit `shows.js` to add more)
 - Filter chips by category (Coffee, Pizza, Wine Tasting, Bagels, etc.)
 - Search box that matches names, cuisines, and locations
 - Click a card in the sidebar to fly to its pin; click a pin to see a Gilmore Girls quip and a Google Maps link

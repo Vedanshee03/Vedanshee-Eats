@@ -8,7 +8,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;0,900;1,500&family=Lora:ital,wght@0,400;0,500;0,600;1,400&family=Dancing+Script:wght@600;700&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
-  <link rel="stylesheet" href="styles.css?v=9" />
+  <link rel="stylesheet" href="styles.css?v=10" />
   <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>&#9749;</text></svg>" />
 </head>
 <body>
@@ -52,6 +52,19 @@
 
     <section class="map-wrap">
       <div id="map"></div>
+      <button type="button" class="shows-toggle" id="shows-toggle" aria-expanded="false" aria-controls="shows-panel">
+        &#127917; Shows I&rsquo;ve Seen <span class="shows-count" id="shows-count"></span>
+      </button>
+      <div class="shows-panel" id="shows-panel" hidden>
+        <div class="shows-panel-head">
+          <div>
+            <h2>&#127917; Shows I&rsquo;ve Seen</h2>
+            <p>A year of curtain calls in NYC</p>
+          </div>
+          <button type="button" class="shows-close" id="shows-close" aria-label="Close shows list">&times;</button>
+        </div>
+        <ul class="shows-list" id="shows-list"></ul>
+      </div>
       <div class="map-badge">&#9749; A little bit of Stars Hollow, wherever you go</div>
     </section>
   </main>
@@ -62,7 +75,8 @@
   </footer>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="data.js?v=34"></script>
-  <script src="app.js?v=34"></script>
+  <script src="data.js?v=35"></script>
+  <script src="shows.js?v=1"></script>
+  <script src="app.js?v=35"></script>
 </body>
 </html>

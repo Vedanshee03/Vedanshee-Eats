@@ -119,6 +119,12 @@ function scrollCardIntoView(id) {
   card.scrollIntoView({ block: "center", behavior: "smooth" });
 }
 
+// On short phone maps, sit the pin below center so its popup fits above it
+function flyTarget(latlng, zoom) {
+  if (!isCompactLayout()) return latlng;
+  return map.unproject(map.project(latlng, zoom).subtract([0, 90]), zoom);
+}
+
 function focusPlace(place, { fromList = false } = {}) {
   const marker = markers.get(place.id);
   if (!marker) return;
@@ -128,7 +134,7 @@ function focusPlace(place, { fromList = false } = {}) {
 
   const showOnMap = () => {
     map.invalidateSize();
-    map.flyTo(marker.getLatLng(), 16, { duration: 0.8 });
+    map.flyTo(flyTarget(marker.getLatLng(), 16), 16, { duration: 0.8 });
     suppressReturnScroll = true;
     marker.openPopup();
     setTimeout(() => {
@@ -154,11 +160,24 @@ PLACES.forEach((place) => {
   markers.set(place.id, marker);
 });
 
+let lastPopupOpenAt = 0;
+const mapWrapEl = document.querySelector(".map-wrap");
+map.on("popupopen", () => {
+  lastPopupOpenAt = Date.now();
+  mapWrapEl.classList.add("popup-open");
+});
+
 map.on("popupclose", () => {
+  mapWrapEl.classList.remove("popup-open");
   if (suppressReturnScroll || pendingReturnId == null || !isCompactLayout()) return;
   const id = pendingReturnId;
+  const closedAt = Date.now();
   pendingReturnId = null;
-  setTimeout(() => scrollCardIntoView(id), 60);
+  setTimeout(() => {
+    // Another popup replaced this one, so stay on the map
+    if (lastPopupOpenAt >= closedAt) return;
+    scrollCardIntoView(id);
+  }, 60);
 });
 
 map.getContainer().addEventListener("click", (e) => {
@@ -180,6 +199,89 @@ map.getContainer().addEventListener("click", (e) => {
       scrollCardIntoView(id);
     }
   }, 350);
+});
+
+/* — Theatre shows — */
+const SHOW_KIND_EMOJI = { Musical: "🎭", Ballet: "🩰", Play: "📜", Spectacular: "✨" };
+const theatreMarkers = new Map();
+
+const theatreIcon = L.divIcon({
+  className: "",
+  html: `<div class="gg-marker theatre-marker"><span>🎭</span></div>`,
+  iconSize: [30, 30],
+  iconAnchor: [15, 28],
+  popupAnchor: [0, -26],
+});
+
+function theatrePopupHtml(key) {
+  const t = THEATRES[key];
+  const seen = SHOWS.filter((show) => show.theatre === key);
+  const gmaps = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(`${t.name}, ${t.address}`)}`;
+  return `<div class="popup-inner popup-theatre">
+    <div class="popup-cat">🎭 Theatre</div>
+    <h3>${t.name}</h3>
+    <ul class="popup-shows">${seen.map((show) => `<li>${SHOW_KIND_EMOJI[show.kind]} ${show.title}</li>`).join("")}</ul>
+    <div class="popup-location">${t.neighborhood}, New York City</div>
+    <a class="popup-link" href="${gmaps}" target="_blank" rel="noopener">Open in Google Maps →</a>
+    <button type="button" class="popup-back-shows">↑ Back to shows</button>
+  </div>`;
+}
+
+Object.entries(THEATRES).forEach(([key, t]) => {
+  const marker = L.marker([t.lat, t.lng], { icon: theatreIcon, zIndexOffset: 500 })
+    .bindPopup(theatrePopupHtml(key))
+    .addTo(map);
+  marker.on("click", () => {
+    pendingReturnId = null;
+  });
+  theatreMarkers.set(key, marker);
+});
+
+const showsToggle = document.getElementById("shows-toggle");
+const showsPanel = document.getElementById("shows-panel");
+const showsList = document.getElementById("shows-list");
+document.getElementById("shows-count").textContent = SHOWS.length;
+
+function setShowsPanel(open) {
+  showsPanel.hidden = !open;
+  showsToggle.classList.toggle("active", open);
+  showsToggle.setAttribute("aria-expanded", String(open));
+}
+
+showsToggle.addEventListener("click", () => setShowsPanel(showsPanel.hidden));
+document.getElementById("shows-close").addEventListener("click", () => setShowsPanel(false));
+
+function focusTheatre(key) {
+  const marker = theatreMarkers.get(key);
+  if (!marker) return;
+  pendingReturnId = null;
+  if (isCompactLayout()) setShowsPanel(false);
+  map.invalidateSize();
+  map.flyTo(flyTarget(marker.getLatLng(), 16), 16, { duration: 0.8 });
+  marker.openPopup();
+}
+
+SHOWS.forEach((show) => {
+  const t = THEATRES[show.theatre];
+  const li = document.createElement("li");
+  li.className = "show-card";
+  li.innerHTML = `<button type="button">
+    <span class="show-title">${SHOW_KIND_EMOJI[show.kind]} ${show.title}</span>
+    <span class="show-venue">${t.name} · ${t.neighborhood}</span>
+  </button>`;
+  li.querySelector("button").addEventListener("click", () => {
+    showsList.querySelectorAll(".show-card").forEach((c) => c.classList.remove("active"));
+    li.classList.add("active");
+    focusTheatre(show.theatre);
+  });
+  showsList.appendChild(li);
+});
+
+map.getContainer().addEventListener("click", (e) => {
+  if (!e.target.closest(".popup-back-shows")) return;
+  e.preventDefault();
+  map.closePopup();
+  setShowsPanel(true);
 });
 
 /* — Filters — */
