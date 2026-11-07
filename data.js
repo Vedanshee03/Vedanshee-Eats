@@ -3300,5 +3300,41 @@ const PLACES = [
     "lat": 40.759519,
     "lng": -73.980478,
     "approx": false
+  },
+  {
+    "id": 276,
+    "name": "The Marshal",
+    "cuisine": "Farm-to-Table New American",
+    "category": "Restaurant",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": "The Marshal, 628 10th Ave, New York, NY 10036",
+    "lat": 40.761253,
+    "lng": -73.994034,
+    "approx": false
+  },
+  {
+    "id": 277,
+    "name": "Romeo & Juliet Colombian Coffee",
+    "cuisine": "Colombian Coffee",
+    "category": "Coffee",
+    "region": "nyc",
+    "location": "Hell's Kitchen, New York City",
+    "mapQuery": "Romeo & Juliet Colombian Coffee, 555 W 42nd St, New York, NY 10036",
+    "lat": 40.760859,
+    "lng": -73.997937,
+    "approx": false
+  },
+  {
+    "id": 278,
+    "name": "Café Paradiso",
+    "cuisine": "Italian Cafe",
+    "category": "Cafe",
+    "region": "nyc",
+    "location": "Lincoln Center, Upper West Side, New York City",
+    "mapQuery": "Cafe Paradiso, 144 W 65th St, New York, NY 10023",
+    "lat": 40.773425,
+    "lng": -73.98349,
+    "approx": false
   }
 ];

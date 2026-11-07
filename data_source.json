@@ -273,5 +273,8 @@
   {"id": 273, "name": "Tamale House East", "cuisine": "Mexican / Tex-Mex", "category": "Restaurant", "region": "texas", "location": "East Austin, Texas", "query": "Tamale House East, 1707 E 6th St, Austin, TX 78702"},
   {"id": 274, "name": "Foodpath Indian Cuisine", "cuisine": "Indian", "category": "Restaurant", "region": "texas", "location": "North Loop, Austin, Texas", "query": "Foodpath Indian Cuisine, 5610 N Interstate Hwy 35, Austin, TX 78751"},
   {"id": 275, "name": "Kerbey Lane Cafe", "cuisine": "All-Day Breakfast / Tex-Mex", "category": "Diner", "region": "texas", "location": "Central (the original), Austin, Texas", "query": "Kerbey Lane Cafe, 3704 Kerbey Ln, Austin, TX 78731"},
-  {"id": 276, "name": "Van Leeuwen Ice Cream", "cuisine": "Ice Cream", "category": "Dessert", "region": "nyc", "location": "Rockefeller Center, New York City", "query": "Van Leeuwen Ice Cream, 1250 6th Ave, New York, NY 10020"}
+  {"id": 276, "name": "Van Leeuwen Ice Cream", "cuisine": "Ice Cream", "category": "Dessert", "region": "nyc", "location": "Rockefeller Center, New York City", "query": "Van Leeuwen Ice Cream, 1250 6th Ave, New York, NY 10020"},
+  {"id": 277, "name": "The Marshal", "cuisine": "Farm-to-Table New American", "category": "Restaurant", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "The Marshal, 628 10th Ave, New York, NY 10036"},
+  {"id": 278, "name": "Romeo & Juliet Colombian Coffee", "cuisine": "Colombian Coffee", "category": "Coffee", "region": "nyc", "location": "Hell's Kitchen, New York City", "query": "Romeo & Juliet Colombian Coffee, 555 W 42nd St, New York, NY 10036"},
+  {"id": 279, "name": "Café Paradiso", "cuisine": "Italian Cafe", "category": "Cafe", "region": "nyc", "location": "Lincoln Center, Upper West Side, New York City", "query": "Cafe Paradiso, 144 W 65th St, New York, NY 10023"}
 ]

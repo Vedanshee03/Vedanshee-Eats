@@ -198,6 +198,9 @@ MANUAL = {
     274: (30.316147, -97.708497, False),   # Foodpath Indian Cuisine - North Loop, Austin
     275: (30.308018, -97.750483, False),   # Kerbey Lane Cafe - Central (original), Austin
     276: (40.759519, -73.980478, False),   # Van Leeuwen - Rockefeller Center (1250 6th Ave)
+    277: (40.761253, -73.994034, False),   # The Marshal - 628 10th Ave
+    278: (40.760859, -73.997937, False),   # Romeo & Juliet Colombian Coffee - 555 W 42nd St
+    279: (40.773425, -73.983490, False),   # Cafe Paradiso - Film at Lincoln Center
 }
 
 GOOGLE_QUERIES = {
@@ -220,6 +223,9 @@ GOOGLE_QUERIES = {
     260: "Good To Go by JBF, 25 11th Ave, New York, NY 10011",
     261: "Russ & Daughters, 502 W 34th St, New York, NY 10001",
     276: "Van Leeuwen Ice Cream, 1250 6th Ave, New York, NY 10020",
+    277: "The Marshal, 628 10th Ave, New York, NY 10036",
+    278: "Romeo & Juliet Colombian Coffee, 555 W 42nd St, New York, NY 10036",
+    279: "Cafe Paradiso, 144 W 65th St, New York, NY 10023",
 }
 
 with open("geocoded.json") as f:
